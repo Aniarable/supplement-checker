@@ -82,7 +82,7 @@ describe("findRedundancies", () => {
   });
 
   it("does not flag supplements with only 1 shared goal", () => {
-    const resolved = [resolve("zinc", supplements), resolve("vitamin-c", supplements)];
+    const resolved = [resolve("creatine", supplements), resolve("probiotics", supplements)];
     const result = findRedundancies(resolved);
     expect(result).toHaveLength(0);
   });

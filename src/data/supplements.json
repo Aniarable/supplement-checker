@@ -1,976 +1,2760 @@
 [
   {
     "supplement": "magnesium",
-    "aliases": ["mag glycinate", "mag citrate", "mag threonate", "magnesium glycinate", "magnesium citrate", "magnesium threonate"],
-    "timing": { "best": "evening", "with_food": true },
-    "interactions": [
-      { "with": "zinc", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
-      { "with": "vitamin-d", "type": "synergy", "note": "D3 increases mag utilization" },
-      { "with": "calcium", "type": "competition", "note": "High-dose calcium can reduce mag absorption -- space apart" },
-      { "with": "iron", "type": "competition", "note": "Can reduce iron absorption -- take at different meals" }
+    "aliases": [
+      "mag glycinate",
+      "mag citrate",
+      "mag threonate",
+      "magnesium glycinate",
+      "magnesium citrate",
+      "magnesium threonate"
     ],
-    "goals": ["sleep", "recovery", "stress", "muscle-cramps"],
-    "category": "mineral"
+    "timing": {
+      "best": "evening",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "zinc",
+        "type": "competition",
+        "note": "Compete for absorption -- space 2hr apart"
+      },
+      {
+        "with": "vitamin-d",
+        "type": "synergy",
+        "note": "D3 increases mag utilization"
+      },
+      {
+        "with": "calcium",
+        "type": "competition",
+        "note": "High-dose calcium can reduce mag absorption -- space apart"
+      },
+      {
+        "with": "iron",
+        "type": "competition",
+        "note": "Can reduce iron absorption -- take at different meals"
+      }
+    ],
+    "goals": [
+      "sleep",
+      "recovery",
+      "stress",
+      "muscle-cramps"
+    ],
+    "category": "mineral",
+    "commonly_with": [
+      {
+        "supplement": "vitamin-d",
+        "reason": "Magnesium is needed to convert D3 to active form"
+      }
+    ]
   },
   {
     "supplement": "zinc",
-    "aliases": ["zinc picolinate", "zinc bisglycinate", "zinc carnosine", "zinc gluconate"],
-    "timing": { "best": "evening", "with_food": true },
-    "interactions": [
-      { "with": "magnesium", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
-      { "with": "copper", "type": "competition", "note": "Long-term zinc depletes copper -- supplement copper if taking >30mg/day" },
-      { "with": "iron", "type": "competition", "note": "Compete for absorption -- take at different times" },
-      { "with": "quercetin", "type": "synergy", "note": "Quercetin acts as a zinc ionophore, improving cellular uptake" }
+    "aliases": [
+      "zinc picolinate",
+      "zinc bisglycinate",
+      "zinc carnosine",
+      "zinc gluconate"
     ],
-    "goals": ["immunity", "testosterone", "skin", "recovery"],
-    "category": "mineral"
+    "timing": {
+      "best": "evening",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "magnesium",
+        "type": "competition",
+        "note": "Compete for absorption -- space 2hr apart"
+      },
+      {
+        "with": "copper",
+        "type": "competition",
+        "note": "Long-term zinc depletes copper -- supplement copper if taking >30mg/day"
+      },
+      {
+        "with": "iron",
+        "type": "competition",
+        "note": "Compete for absorption -- take at different times"
+      },
+      {
+        "with": "quercetin",
+        "type": "synergy",
+        "note": "Quercetin acts as a zinc ionophore, improving cellular uptake"
+      }
+    ],
+    "goals": [
+      "immunity",
+      "testosterone",
+      "skin",
+      "recovery"
+    ],
+    "category": "mineral",
+    "commonly_with": [
+      {
+        "supplement": "copper",
+        "reason": "Long-term zinc supplementation can deplete copper"
+      }
+    ]
   },
   {
     "supplement": "calcium",
-    "aliases": ["calcium citrate", "calcium carbonate", "calcium hydroxyapatite"],
-    "timing": { "best": "evening", "with_food": true },
-    "interactions": [
-      { "with": "vitamin-d", "type": "synergy", "note": "Vitamin D is required for calcium absorption" },
-      { "with": "vitamin-k2", "type": "synergy", "note": "K2 directs calcium to bones instead of arteries" },
-      { "with": "magnesium", "type": "competition", "note": "High-dose calcium can reduce mag absorption" },
-      { "with": "iron", "type": "competition", "note": "Calcium inhibits iron absorption -- space 2hr apart" },
-      { "with": "thyroid-medication", "type": "caution", "note": "Calcium can block thyroid medication absorption -- space 4hr apart" }
+    "aliases": [
+      "calcium citrate",
+      "calcium carbonate",
+      "calcium hydroxyapatite"
     ],
-    "goals": ["bone-health", "muscle-function"],
-    "category": "mineral"
+    "timing": {
+      "best": "evening",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "vitamin-d",
+        "type": "synergy",
+        "note": "Vitamin D is required for calcium absorption"
+      },
+      {
+        "with": "vitamin-k2",
+        "type": "synergy",
+        "note": "K2 directs calcium to bones instead of arteries"
+      },
+      {
+        "with": "magnesium",
+        "type": "competition",
+        "note": "High-dose calcium can reduce mag absorption"
+      },
+      {
+        "with": "iron",
+        "type": "competition",
+        "note": "Calcium inhibits iron absorption -- space 2hr apart"
+      },
+      {
+        "with": "thyroid-medication",
+        "type": "caution",
+        "note": "Calcium can block thyroid medication absorption -- space 4hr apart"
+      }
+    ],
+    "goals": [
+      "bone-health",
+      "muscle-function"
+    ],
+    "category": "mineral",
+    "commonly_with": [
+      {
+        "supplement": "vitamin-d",
+        "reason": "D3 is needed for calcium absorption"
+      },
+      {
+        "supplement": "vitamin-k2",
+        "reason": "K2 directs calcium to bones"
+      }
+    ]
   },
   {
     "supplement": "iron",
-    "aliases": ["iron bisglycinate", "ferrous sulfate", "ferrous bisglycinate", "gentle iron"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "vitamin-c", "type": "synergy", "note": "Vitamin C dramatically increases non-heme iron absorption" },
-      { "with": "calcium", "type": "competition", "note": "Calcium inhibits iron absorption -- space 2hr apart" },
-      { "with": "zinc", "type": "competition", "note": "Compete for absorption -- take at different times" },
-      { "with": "green-tea-extract", "type": "competition", "note": "Polyphenols inhibit iron absorption -- space apart" },
-      { "with": "magnesium", "type": "competition", "note": "Can reduce iron absorption -- take at different meals" }
+    "aliases": [
+      "iron bisglycinate",
+      "ferrous sulfate",
+      "ferrous bisglycinate",
+      "gentle iron"
     ],
-    "goals": ["energy", "anemia", "endurance"],
-    "category": "mineral"
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "vitamin-c",
+        "type": "synergy",
+        "note": "Vitamin C dramatically increases non-heme iron absorption"
+      },
+      {
+        "with": "calcium",
+        "type": "competition",
+        "note": "Calcium inhibits iron absorption -- space 2hr apart"
+      },
+      {
+        "with": "zinc",
+        "type": "competition",
+        "note": "Compete for absorption -- take at different times"
+      },
+      {
+        "with": "green-tea-extract",
+        "type": "competition",
+        "note": "Polyphenols inhibit iron absorption -- space apart"
+      },
+      {
+        "with": "magnesium",
+        "type": "competition",
+        "note": "Can reduce iron absorption -- take at different meals"
+      }
+    ],
+    "goals": [
+      "energy",
+      "anemia",
+      "endurance"
+    ],
+    "category": "mineral",
+    "commonly_with": [
+      {
+        "supplement": "vitamin-c",
+        "reason": "Vitamin C enhances non-heme iron absorption by up to 6x"
+      }
+    ]
   },
   {
     "supplement": "copper",
-    "aliases": ["copper bisglycinate", "copper gluconate"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "zinc", "type": "competition", "note": "Zinc depletes copper over time -- maintain 15:1 zinc-to-copper ratio" },
-      { "with": "vitamin-c", "type": "competition", "note": "High-dose vitamin C can reduce copper absorption" }
+    "aliases": [
+      "copper bisglycinate",
+      "copper gluconate"
     ],
-    "goals": ["immunity", "connective-tissue", "iron-metabolism"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "zinc",
+        "type": "competition",
+        "note": "Zinc depletes copper over time -- maintain 15:1 zinc-to-copper ratio"
+      },
+      {
+        "with": "vitamin-c",
+        "type": "competition",
+        "note": "High-dose vitamin C can reduce copper absorption"
+      }
+    ],
+    "goals": [
+      "immunity",
+      "connective-tissue",
+      "iron-metabolism"
+    ],
     "category": "mineral"
   },
   {
     "supplement": "selenium",
-    "aliases": ["selenomethionine", "sodium selenite"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "vitamin-e", "type": "synergy", "note": "Selenium and vitamin E work together as antioxidants" },
-      { "with": "iodine", "type": "synergy", "note": "Both needed for thyroid function -- take together" },
-      { "with": "vitamin-c", "type": "competition", "note": "High-dose vitamin C can reduce selenite absorption -- use selenomethionine form to avoid" }
+    "aliases": [
+      "selenomethionine",
+      "sodium selenite"
     ],
-    "goals": ["thyroid", "antioxidant", "immunity"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "vitamin-e",
+        "type": "synergy",
+        "note": "Selenium and vitamin E work together as antioxidants"
+      },
+      {
+        "with": "iodine",
+        "type": "synergy",
+        "note": "Both needed for thyroid function -- take together"
+      },
+      {
+        "with": "vitamin-c",
+        "type": "competition",
+        "note": "High-dose vitamin C can reduce selenite absorption -- use selenomethionine form to avoid"
+      }
+    ],
+    "goals": [
+      "thyroid",
+      "antioxidant",
+      "immunity"
+    ],
     "category": "mineral"
   },
   {
     "supplement": "iodine",
-    "aliases": ["potassium iodide", "kelp", "nascent iodine"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "selenium", "type": "synergy", "note": "Both needed for thyroid hormone production" }
+    "aliases": [
+      "potassium iodide",
+      "kelp",
+      "nascent iodine"
     ],
-    "goals": ["thyroid", "metabolism"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "selenium",
+        "type": "synergy",
+        "note": "Both needed for thyroid hormone production"
+      }
+    ],
+    "goals": [
+      "thyroid",
+      "metabolism"
+    ],
     "category": "mineral"
   },
   {
     "supplement": "potassium",
-    "aliases": ["potassium citrate", "potassium gluconate", "potassium chloride"],
-    "timing": { "best": "any", "with_food": true },
-    "interactions": [
-      { "with": "magnesium", "type": "synergy", "note": "Magnesium helps retain potassium -- take together" },
-      { "with": "sodium", "type": "synergy", "note": "Potassium and sodium balance each other for electrolyte homeostasis" }
+    "aliases": [
+      "potassium citrate",
+      "potassium gluconate",
+      "potassium chloride"
     ],
-    "goals": ["electrolytes", "blood-pressure", "muscle-function"],
+    "timing": {
+      "best": "any",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Magnesium helps retain potassium -- take together"
+      },
+      {
+        "with": "sodium",
+        "type": "synergy",
+        "note": "Potassium and sodium balance each other for electrolyte homeostasis"
+      }
+    ],
+    "goals": [
+      "electrolytes",
+      "blood-pressure",
+      "muscle-function"
+    ],
     "category": "mineral"
   },
   {
     "supplement": "chromium",
-    "aliases": ["chromium picolinate", "chromium polynicotinate"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "iron", "type": "competition", "note": "Chromium and iron compete for transferrin binding -- space apart" }
+    "aliases": [
+      "chromium picolinate",
+      "chromium polynicotinate"
     ],
-    "goals": ["blood-sugar", "insulin-sensitivity", "cravings"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "iron",
+        "type": "competition",
+        "note": "Chromium and iron compete for transferrin binding -- space apart"
+      }
+    ],
+    "goals": [
+      "blood-sugar",
+      "insulin-sensitivity",
+      "cravings"
+    ],
     "category": "mineral"
   },
   {
     "supplement": "boron",
-    "aliases": ["boron citrate", "boron glycinate"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "vitamin-d", "type": "synergy", "note": "Boron extends the half-life of vitamin D" },
-      { "with": "magnesium", "type": "synergy", "note": "Boron helps retain magnesium" }
+    "aliases": [
+      "boron citrate",
+      "boron glycinate"
     ],
-    "goals": ["bone-health", "testosterone", "joint-health"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "vitamin-d",
+        "type": "synergy",
+        "note": "Boron extends the half-life of vitamin D"
+      },
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Boron helps retain magnesium"
+      }
+    ],
+    "goals": [
+      "bone-health",
+      "testosterone",
+      "joint-health"
+    ],
     "category": "mineral"
   },
   {
     "supplement": "vitamin-d",
-    "aliases": ["vitamin d3", "cholecalciferol", "d3", "vit d"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "vitamin-k2", "type": "synergy", "note": "K2 directs D3-absorbed calcium to bones -- always pair them" },
-      { "with": "magnesium", "type": "synergy", "note": "Magnesium is required to convert D3 to its active form" },
-      { "with": "calcium", "type": "synergy", "note": "D3 increases calcium absorption" },
-      { "with": "omega-3", "type": "synergy", "note": "Fat-soluble -- absorbs better with omega-3 fats" },
-      { "with": "boron", "type": "synergy", "note": "Boron extends the half-life of vitamin D" }
+    "aliases": [
+      "vitamin d3",
+      "cholecalciferol",
+      "d3",
+      "vit d"
     ],
-    "goals": ["bone-health", "immunity", "mood", "hormones"],
-    "category": "vitamin"
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "vitamin-k2",
+        "type": "synergy",
+        "note": "K2 directs D3-absorbed calcium to bones -- always pair them"
+      },
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Magnesium is required to convert D3 to its active form"
+      },
+      {
+        "with": "calcium",
+        "type": "synergy",
+        "note": "D3 increases calcium absorption"
+      },
+      {
+        "with": "omega-3",
+        "type": "synergy",
+        "note": "Fat-soluble -- absorbs better with omega-3 fats"
+      },
+      {
+        "with": "boron",
+        "type": "synergy",
+        "note": "Boron extends the half-life of vitamin D"
+      }
+    ],
+    "goals": [
+      "bone-health",
+      "immunity",
+      "mood",
+      "hormones"
+    ],
+    "category": "vitamin",
+    "commonly_with": [
+      {
+        "supplement": "vitamin-k2",
+        "reason": "K2 directs calcium to bones instead of arteries"
+      },
+      {
+        "supplement": "magnesium",
+        "reason": "Required for D3 activation"
+      }
+    ]
   },
   {
     "supplement": "vitamin-k2",
-    "aliases": ["mk-7", "mk-4", "menaquinone", "k2", "vit k2"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "vitamin-d", "type": "synergy", "note": "K2 directs D3-absorbed calcium to bones -- always pair them" },
-      { "with": "calcium", "type": "synergy", "note": "K2 ensures calcium goes to bones, not arteries" },
-      { "with": "warfarin", "type": "caution", "note": "K2 can interfere with blood thinners -- consult doctor" }
+    "aliases": [
+      "mk-7",
+      "mk-4",
+      "menaquinone",
+      "k2",
+      "vit k2"
     ],
-    "goals": ["bone-health", "cardiovascular", "calcium-metabolism"],
-    "category": "vitamin"
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "vitamin-d",
+        "type": "synergy",
+        "note": "K2 directs D3-absorbed calcium to bones -- always pair them"
+      },
+      {
+        "with": "calcium",
+        "type": "synergy",
+        "note": "K2 ensures calcium goes to bones, not arteries"
+      },
+      {
+        "with": "warfarin",
+        "type": "caution",
+        "note": "K2 can interfere with blood thinners -- consult doctor"
+      }
+    ],
+    "goals": [
+      "bone-health",
+      "cardiovascular",
+      "calcium-metabolism"
+    ],
+    "category": "vitamin",
+    "commonly_with": [
+      {
+        "supplement": "vitamin-d",
+        "reason": "K2 and D3 work together for calcium metabolism"
+      }
+    ]
   },
   {
     "supplement": "vitamin-c",
-    "aliases": ["ascorbic acid", "vit c", "liposomal c", "sodium ascorbate"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "iron", "type": "synergy", "note": "Dramatically increases non-heme iron absorption" },
-      { "with": "vitamin-e", "type": "synergy", "note": "Vitamin C regenerates oxidized vitamin E" },
-      { "with": "copper", "type": "competition", "note": "High-dose vitamin C can reduce copper absorption" },
-      { "with": "b12", "type": "competition", "note": "High-dose vitamin C may degrade B12 -- space 2hr apart" },
-      { "with": "nac", "type": "synergy", "note": "Both boost glutathione production" }
+    "aliases": [
+      "ascorbic acid",
+      "vit c",
+      "liposomal c",
+      "sodium ascorbate"
     ],
-    "goals": ["immunity", "antioxidant", "skin", "iron-absorption"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "iron",
+        "type": "synergy",
+        "note": "Dramatically increases non-heme iron absorption"
+      },
+      {
+        "with": "vitamin-e",
+        "type": "synergy",
+        "note": "Vitamin C regenerates oxidized vitamin E"
+      },
+      {
+        "with": "copper",
+        "type": "competition",
+        "note": "High-dose vitamin C can reduce copper absorption"
+      },
+      {
+        "with": "b12",
+        "type": "competition",
+        "note": "High-dose vitamin C may degrade B12 -- space 2hr apart"
+      },
+      {
+        "with": "nac",
+        "type": "synergy",
+        "note": "Both boost glutathione production"
+      }
+    ],
+    "goals": [
+      "immunity",
+      "antioxidant",
+      "skin",
+      "iron-absorption"
+    ],
     "category": "vitamin"
   },
   {
     "supplement": "vitamin-e",
-    "aliases": ["tocopherol", "tocotrienol", "mixed tocopherols", "vit e"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "vitamin-c", "type": "synergy", "note": "Vitamin C regenerates oxidized vitamin E" },
-      { "with": "selenium", "type": "synergy", "note": "Work together as antioxidants" },
-      { "with": "vitamin-k2", "type": "competition", "note": "High-dose vitamin E may interfere with vitamin K -- space apart" }
+    "aliases": [
+      "tocopherol",
+      "tocotrienol",
+      "mixed tocopherols",
+      "vit e"
     ],
-    "goals": ["antioxidant", "skin", "cardiovascular"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "vitamin-c",
+        "type": "synergy",
+        "note": "Vitamin C regenerates oxidized vitamin E"
+      },
+      {
+        "with": "selenium",
+        "type": "synergy",
+        "note": "Work together as antioxidants"
+      },
+      {
+        "with": "vitamin-k2",
+        "type": "competition",
+        "note": "High-dose vitamin E may interfere with vitamin K -- space apart"
+      }
+    ],
+    "goals": [
+      "antioxidant",
+      "skin",
+      "cardiovascular"
+    ],
     "category": "vitamin"
   },
   {
     "supplement": "vitamin-a",
-    "aliases": ["retinol", "retinyl palmitate", "beta-carotene", "vit a"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "vitamin-d", "type": "competition", "note": "High-dose vitamin A can antagonize vitamin D -- keep ratio balanced" },
-      { "with": "zinc", "type": "synergy", "note": "Zinc is needed to transport vitamin A from the liver" }
+    "aliases": [
+      "retinol",
+      "retinyl palmitate",
+      "beta-carotene",
+      "vit a"
     ],
-    "goals": ["vision", "immunity", "skin"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "vitamin-d",
+        "type": "competition",
+        "note": "High-dose vitamin A can antagonize vitamin D -- keep ratio balanced"
+      },
+      {
+        "with": "zinc",
+        "type": "synergy",
+        "note": "Zinc is needed to transport vitamin A from the liver"
+      }
+    ],
+    "goals": [
+      "vision",
+      "immunity",
+      "skin"
+    ],
     "category": "vitamin"
   },
   {
     "supplement": "b-complex",
-    "aliases": ["b vitamins", "vitamin b complex", "b-50", "b-100"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "magnesium", "type": "synergy", "note": "B6 increases magnesium absorption into cells" },
-      { "with": "iron", "type": "synergy", "note": "B vitamins support red blood cell production alongside iron" }
+    "aliases": [
+      "b vitamins",
+      "vitamin b complex",
+      "b-50",
+      "b-100"
     ],
-    "goals": ["energy", "mood", "nervous-system", "methylation"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "B6 increases magnesium absorption into cells"
+      },
+      {
+        "with": "iron",
+        "type": "synergy",
+        "note": "B vitamins support red blood cell production alongside iron"
+      }
+    ],
+    "goals": [
+      "energy",
+      "mood",
+      "nervous-system",
+      "methylation"
+    ],
     "category": "vitamin"
   },
   {
     "supplement": "b12",
-    "aliases": ["methylcobalamin", "cyanocobalamin", "hydroxocobalamin", "vitamin b12"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "folate", "type": "synergy", "note": "B12 and folate work together in methylation cycle" },
-      { "with": "vitamin-c", "type": "competition", "note": "High-dose vitamin C may degrade B12 -- space 2hr apart" }
+    "aliases": [
+      "methylcobalamin",
+      "cyanocobalamin",
+      "hydroxocobalamin",
+      "vitamin b12"
     ],
-    "goals": ["energy", "nervous-system", "methylation", "mood"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "folate",
+        "type": "synergy",
+        "note": "B12 and folate work together in methylation cycle"
+      },
+      {
+        "with": "vitamin-c",
+        "type": "competition",
+        "note": "High-dose vitamin C may degrade B12 -- space 2hr apart"
+      }
+    ],
+    "goals": [
+      "energy",
+      "nervous-system",
+      "methylation",
+      "mood"
+    ],
     "category": "vitamin"
   },
   {
     "supplement": "folate",
-    "aliases": ["methylfolate", "folic acid", "5-mthf", "vitamin b9"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "b12", "type": "synergy", "note": "Folate and B12 are co-dependent in the methylation cycle" },
-      { "with": "zinc", "type": "competition", "note": "High-dose folic acid may impair zinc absorption" }
+    "aliases": [
+      "methylfolate",
+      "folic acid",
+      "5-mthf",
+      "vitamin b9"
     ],
-    "goals": ["methylation", "mood", "prenatal", "cardiovascular"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "b12",
+        "type": "synergy",
+        "note": "Folate and B12 are co-dependent in the methylation cycle"
+      },
+      {
+        "with": "zinc",
+        "type": "competition",
+        "note": "High-dose folic acid may impair zinc absorption"
+      }
+    ],
+    "goals": [
+      "methylation",
+      "mood",
+      "prenatal",
+      "cardiovascular"
+    ],
     "category": "vitamin"
   },
   {
     "supplement": "biotin",
-    "aliases": ["vitamin b7", "vitamin h"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "alpha-lipoic-acid", "type": "competition", "note": "ALA can compete with biotin for absorption -- space apart" }
+    "aliases": [
+      "vitamin b7",
+      "vitamin h"
     ],
-    "goals": ["hair", "skin", "nails", "blood-sugar"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "alpha-lipoic-acid",
+        "type": "competition",
+        "note": "ALA can compete with biotin for absorption -- space apart"
+      }
+    ],
+    "goals": [
+      "hair",
+      "skin",
+      "nails",
+      "blood-sugar"
+    ],
     "category": "vitamin"
   },
   {
     "supplement": "omega-3",
-    "aliases": ["fish oil", "epa", "dha", "epa/dha", "krill oil", "algae oil"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "vitamin-d", "type": "synergy", "note": "Fat improves fat-soluble vitamin absorption" },
-      { "with": "vitamin-e", "type": "synergy", "note": "Vitamin E protects omega-3 fats from oxidation" },
-      { "with": "curcumin", "type": "synergy", "note": "Both are anti-inflammatory -- complementary mechanisms" },
-      { "with": "astaxanthin", "type": "synergy", "note": "Astaxanthin protects omega-3 from oxidation" }
+    "aliases": [
+      "fish oil",
+      "epa",
+      "dha",
+      "epa/dha",
+      "krill oil",
+      "algae oil"
     ],
-    "goals": ["cardiovascular", "brain", "anti-inflammatory", "mood"],
-    "category": "fatty-acid"
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "vitamin-d",
+        "type": "synergy",
+        "note": "Fat improves fat-soluble vitamin absorption"
+      },
+      {
+        "with": "vitamin-e",
+        "type": "synergy",
+        "note": "Vitamin E protects omega-3 fats from oxidation"
+      },
+      {
+        "with": "curcumin",
+        "type": "synergy",
+        "note": "Both are anti-inflammatory -- complementary mechanisms"
+      },
+      {
+        "with": "astaxanthin",
+        "type": "synergy",
+        "note": "Astaxanthin protects omega-3 from oxidation"
+      }
+    ],
+    "goals": [
+      "cardiovascular",
+      "brain",
+      "anti-inflammatory",
+      "mood"
+    ],
+    "category": "fatty-acid",
+    "commonly_with": [
+      {
+        "supplement": "vitamin-d",
+        "reason": "Fat-soluble D3 absorbs better with omega-3 fats"
+      }
+    ]
   },
   {
     "supplement": "ashwagandha",
-    "aliases": ["ksm-66", "sensoril", "withania somnifera"],
-    "timing": { "best": "evening", "with_food": true },
-    "interactions": [
-      { "with": "magnesium", "type": "synergy", "note": "Both promote relaxation and sleep -- stack well together" },
-      { "with": "rhodiola", "type": "synergy", "note": "Complementary adaptogens -- ashwagandha calms, rhodiola energizes" },
-      { "with": "thyroid-medication", "type": "caution", "note": "Ashwagandha can increase thyroid hormones -- monitor with medication" }
+    "aliases": [
+      "ksm-66",
+      "sensoril",
+      "withania somnifera"
     ],
-    "goals": ["stress", "sleep", "testosterone", "recovery", "anxiety"],
-    "category": "adaptogen"
+    "timing": {
+      "best": "evening",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Both promote relaxation and sleep -- stack well together"
+      },
+      {
+        "with": "rhodiola",
+        "type": "synergy",
+        "note": "Complementary adaptogens -- ashwagandha calms, rhodiola energizes"
+      },
+      {
+        "with": "thyroid-medication",
+        "type": "caution",
+        "note": "Ashwagandha can increase thyroid hormones -- monitor with medication"
+      }
+    ],
+    "goals": [
+      "stress",
+      "sleep",
+      "testosterone",
+      "recovery",
+      "anxiety"
+    ],
+    "category": "adaptogen",
+    "commonly_with": [
+      {
+        "supplement": "magnesium",
+        "reason": "Both support relaxation and sleep quality"
+      }
+    ]
   },
   {
     "supplement": "rhodiola",
-    "aliases": ["rhodiola rosea", "golden root", "arctic root"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "ashwagandha", "type": "synergy", "note": "Complementary adaptogens -- rhodiola energizes, ashwagandha calms" },
-      { "with": "caffeine", "type": "synergy", "note": "Rhodiola smooths out caffeine jitters" }
+    "aliases": [
+      "rhodiola rosea",
+      "golden root",
+      "arctic root"
     ],
-    "goals": ["energy", "focus", "stress", "endurance"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "ashwagandha",
+        "type": "synergy",
+        "note": "Complementary adaptogens -- rhodiola energizes, ashwagandha calms"
+      },
+      {
+        "with": "caffeine",
+        "type": "synergy",
+        "note": "Rhodiola smooths out caffeine jitters"
+      }
+    ],
+    "goals": [
+      "energy",
+      "focus",
+      "stress",
+      "endurance"
+    ],
     "category": "adaptogen"
   },
   {
     "supplement": "lions-mane",
-    "aliases": ["lion's mane", "hericium erinaceus"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "niacin", "type": "synergy", "note": "Niacin may enhance NGF activity from lion's mane (Stamets stack)" },
-      { "with": "omega-3", "type": "synergy", "note": "Both support neuroplasticity through different pathways" }
+    "aliases": [
+      "lion's mane",
+      "hericium erinaceus"
     ],
-    "goals": ["brain", "focus", "neuroplasticity", "mood"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "niacin",
+        "type": "synergy",
+        "note": "Niacin may enhance NGF activity from lion's mane (Stamets stack)"
+      },
+      {
+        "with": "omega-3",
+        "type": "synergy",
+        "note": "Both support neuroplasticity through different pathways"
+      }
+    ],
+    "goals": [
+      "brain",
+      "focus",
+      "neuroplasticity",
+      "mood"
+    ],
     "category": "mushroom"
   },
   {
     "supplement": "reishi",
-    "aliases": ["ganoderma lucidum", "lingzhi"],
-    "timing": { "best": "evening", "with_food": true },
-    "interactions": [
-      { "with": "ashwagandha", "type": "synergy", "note": "Both promote calm and sleep -- complementary mechanisms" }
+    "aliases": [
+      "ganoderma lucidum",
+      "lingzhi"
     ],
-    "goals": ["sleep", "immunity", "stress", "longevity"],
+    "timing": {
+      "best": "evening",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "ashwagandha",
+        "type": "synergy",
+        "note": "Both promote calm and sleep -- complementary mechanisms"
+      }
+    ],
+    "goals": [
+      "sleep",
+      "immunity",
+      "stress",
+      "longevity"
+    ],
     "category": "mushroom"
   },
   {
     "supplement": "cordyceps",
-    "aliases": ["cordyceps militaris", "cordyceps sinensis", "cs-4"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "caffeine", "type": "synergy", "note": "Both increase energy -- cordyceps via oxygen utilization" },
-      { "with": "rhodiola", "type": "synergy", "note": "Both improve endurance through different mechanisms" }
+    "aliases": [
+      "cordyceps militaris",
+      "cordyceps sinensis",
+      "cs-4"
     ],
-    "goals": ["energy", "endurance", "oxygen-utilization", "libido"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "caffeine",
+        "type": "synergy",
+        "note": "Both increase energy -- cordyceps via oxygen utilization"
+      },
+      {
+        "with": "rhodiola",
+        "type": "synergy",
+        "note": "Both improve endurance through different mechanisms"
+      }
+    ],
+    "goals": [
+      "energy",
+      "endurance",
+      "oxygen-utilization",
+      "libido"
+    ],
     "category": "mushroom"
   },
   {
     "supplement": "turkey-tail",
-    "aliases": ["trametes versicolor", "psp", "psk"],
-    "timing": { "best": "morning", "with_food": false },
+    "aliases": [
+      "trametes versicolor",
+      "psp",
+      "psk"
+    ],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
     "interactions": [],
-    "goals": ["immunity", "gut-health", "antioxidant"],
+    "goals": [
+      "immunity",
+      "gut-health",
+      "antioxidant"
+    ],
     "category": "mushroom"
   },
   {
     "supplement": "chaga",
-    "aliases": ["inonotus obliquus"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "vitamin-c", "type": "synergy", "note": "Both are potent antioxidants -- complementary mechanisms" }
+    "aliases": [
+      "inonotus obliquus"
     ],
-    "goals": ["immunity", "antioxidant", "anti-inflammatory"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "vitamin-c",
+        "type": "synergy",
+        "note": "Both are potent antioxidants -- complementary mechanisms"
+      }
+    ],
+    "goals": [
+      "immunity",
+      "antioxidant",
+      "anti-inflammatory"
+    ],
     "category": "mushroom"
   },
   {
     "supplement": "creatine",
-    "aliases": ["creatine monohydrate", "creapure"],
-    "timing": { "best": "any", "with_food": true },
-    "interactions": [
-      { "with": "caffeine", "type": "neutral", "note": "Old studies suggested conflict -- recent evidence shows no meaningful interaction" },
-      { "with": "beta-alanine", "type": "synergy", "note": "Complementary performance enhancers -- different energy systems" },
-      { "with": "hmb", "type": "synergy", "note": "Both support muscle retention through different pathways" }
+    "aliases": [
+      "creatine monohydrate",
+      "creapure"
     ],
-    "goals": ["muscle", "strength", "brain", "recovery"],
+    "timing": {
+      "best": "any",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "caffeine",
+        "type": "neutral",
+        "note": "Old studies suggested conflict -- recent evidence shows no meaningful interaction"
+      },
+      {
+        "with": "beta-alanine",
+        "type": "synergy",
+        "note": "Complementary performance enhancers -- different energy systems"
+      },
+      {
+        "with": "hmb",
+        "type": "synergy",
+        "note": "Both support muscle retention through different pathways"
+      }
+    ],
+    "goals": [
+      "muscle",
+      "strength",
+      "brain",
+      "recovery"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "l-theanine",
-    "aliases": ["theanine", "suntheanine"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "caffeine", "type": "synergy", "note": "Classic nootropic stack -- theanine smooths caffeine, improves focus without jitters" },
-      { "with": "magnesium", "type": "synergy", "note": "Both promote GABA activity and calm focus" }
+    "aliases": [
+      "theanine",
+      "suntheanine"
     ],
-    "goals": ["focus", "calm", "sleep", "anxiety"],
-    "category": "amino-acid"
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "caffeine",
+        "type": "synergy",
+        "note": "Classic nootropic stack -- theanine smooths caffeine, improves focus without jitters"
+      },
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Both promote GABA activity and calm focus"
+      }
+    ],
+    "goals": [
+      "focus",
+      "calm",
+      "sleep",
+      "anxiety"
+    ],
+    "category": "amino-acid",
+    "commonly_with": [
+      {
+        "supplement": "caffeine",
+        "reason": "Classic nootropic stack -- theanine takes the edge off caffeine"
+      }
+    ]
   },
   {
     "supplement": "nac",
-    "aliases": ["n-acetyl cysteine", "n-acetylcysteine"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "vitamin-c", "type": "synergy", "note": "Both boost glutathione production" },
-      { "with": "glycine", "type": "synergy", "note": "NAC + glycine = GlyNAC protocol -- potent glutathione boost" },
-      { "with": "activated-charcoal", "type": "competition", "note": "Charcoal can bind NAC -- space 2hr apart" }
+    "aliases": [
+      "n-acetyl cysteine",
+      "n-acetylcysteine"
     ],
-    "goals": ["detox", "antioxidant", "liver", "respiratory", "longevity"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "vitamin-c",
+        "type": "synergy",
+        "note": "Both boost glutathione production"
+      },
+      {
+        "with": "glycine",
+        "type": "synergy",
+        "note": "NAC + glycine = GlyNAC protocol -- potent glutathione boost"
+      },
+      {
+        "with": "activated-charcoal",
+        "type": "competition",
+        "note": "Charcoal can bind NAC -- space 2hr apart"
+      }
+    ],
+    "goals": [
+      "detox",
+      "antioxidant",
+      "liver",
+      "respiratory",
+      "longevity"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "glycine",
     "aliases": [],
-    "timing": { "best": "evening", "with_food": false },
+    "timing": {
+      "best": "evening",
+      "with_food": false
+    },
     "interactions": [
-      { "with": "nac", "type": "synergy", "note": "GlyNAC protocol -- potent glutathione and longevity stack" },
-      { "with": "magnesium", "type": "synergy", "note": "Both support sleep quality through different mechanisms" }
+      {
+        "with": "nac",
+        "type": "synergy",
+        "note": "GlyNAC protocol -- potent glutathione and longevity stack"
+      },
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Both support sleep quality through different mechanisms"
+      }
     ],
-    "goals": ["sleep", "longevity", "collagen", "detox"],
+    "goals": [
+      "sleep",
+      "longevity",
+      "collagen",
+      "detox"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "taurine",
     "aliases": [],
-    "timing": { "best": "any", "with_food": false },
+    "timing": {
+      "best": "any",
+      "with_food": false
+    },
     "interactions": [
-      { "with": "magnesium", "type": "synergy", "note": "Both support cardiovascular and nervous system function" },
-      { "with": "caffeine", "type": "synergy", "note": "Taurine may offset some negative cardiovascular effects of caffeine" }
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Both support cardiovascular and nervous system function"
+      },
+      {
+        "with": "caffeine",
+        "type": "synergy",
+        "note": "Taurine may offset some negative cardiovascular effects of caffeine"
+      }
     ],
-    "goals": ["cardiovascular", "longevity", "electrolytes", "exercise"],
+    "goals": [
+      "cardiovascular",
+      "longevity",
+      "electrolytes",
+      "exercise"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "l-tyrosine",
-    "aliases": ["tyrosine", "n-acetyl l-tyrosine", "nalt"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "caffeine", "type": "synergy", "note": "Both increase dopamine -- good pre-workout or focus stack" },
-      { "with": "5-htp", "type": "synergy", "note": "Tyrosine (dopamine) and 5-HTP (serotonin) balance each other" }
+    "aliases": [
+      "tyrosine",
+      "n-acetyl l-tyrosine",
+      "nalt"
     ],
-    "goals": ["focus", "motivation", "mood", "stress"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "caffeine",
+        "type": "synergy",
+        "note": "Both increase dopamine -- good pre-workout or focus stack"
+      },
+      {
+        "with": "5-htp",
+        "type": "synergy",
+        "note": "Tyrosine (dopamine) and 5-HTP (serotonin) balance each other"
+      }
+    ],
+    "goals": [
+      "focus",
+      "motivation",
+      "mood",
+      "stress"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "5-htp",
-    "aliases": ["5-hydroxytryptophan", "griffonia simplicifolia"],
-    "timing": { "best": "evening", "with_food": false },
-    "interactions": [
-      { "with": "l-tyrosine", "type": "synergy", "note": "Balance serotonin and dopamine pathways" },
-      { "with": "ssri", "type": "caution", "note": "Risk of serotonin syndrome -- do NOT combine with SSRIs" },
-      { "with": "st-johns-wort", "type": "caution", "note": "Both raise serotonin -- risk of serotonin syndrome" }
+    "aliases": [
+      "5-hydroxytryptophan",
+      "griffonia simplicifolia"
     ],
-    "goals": ["mood", "sleep", "anxiety", "appetite"],
+    "timing": {
+      "best": "evening",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "l-tyrosine",
+        "type": "synergy",
+        "note": "Balance serotonin and dopamine pathways"
+      },
+      {
+        "with": "ssri",
+        "type": "caution",
+        "note": "Risk of serotonin syndrome -- do NOT combine with SSRIs"
+      },
+      {
+        "with": "st-johns-wort",
+        "type": "caution",
+        "note": "Both raise serotonin -- risk of serotonin syndrome"
+      }
+    ],
+    "goals": [
+      "mood",
+      "sleep",
+      "anxiety",
+      "appetite"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "beta-alanine",
-    "aliases": ["carnosyn"],
-    "timing": { "best": "any", "with_food": true },
-    "interactions": [
-      { "with": "creatine", "type": "synergy", "note": "Complementary performance enhancers -- different energy systems" },
-      { "with": "taurine", "type": "competition", "note": "Beta-alanine can deplete taurine over time -- supplement taurine if using long-term" }
+    "aliases": [
+      "carnosyn"
     ],
-    "goals": ["endurance", "muscle", "exercise"],
+    "timing": {
+      "best": "any",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "creatine",
+        "type": "synergy",
+        "note": "Complementary performance enhancers -- different energy systems"
+      },
+      {
+        "with": "taurine",
+        "type": "competition",
+        "note": "Beta-alanine can deplete taurine over time -- supplement taurine if using long-term"
+      }
+    ],
+    "goals": [
+      "endurance",
+      "muscle",
+      "exercise"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "citrulline",
-    "aliases": ["l-citrulline", "citrulline malate"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "arginine", "type": "redundancy", "note": "Citrulline converts to arginine and is more bioavailable -- citrulline alone is sufficient" },
-      { "with": "beetroot", "type": "synergy", "note": "Both boost nitric oxide through different pathways" }
+    "aliases": [
+      "l-citrulline",
+      "citrulline malate"
     ],
-    "goals": ["pump", "blood-flow", "endurance", "blood-pressure"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "arginine",
+        "type": "redundancy",
+        "note": "Citrulline converts to arginine and is more bioavailable -- citrulline alone is sufficient"
+      },
+      {
+        "with": "beetroot",
+        "type": "synergy",
+        "note": "Both boost nitric oxide through different pathways"
+      }
+    ],
+    "goals": [
+      "pump",
+      "blood-flow",
+      "endurance",
+      "blood-pressure"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "arginine",
-    "aliases": ["l-arginine", "aakg"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "citrulline", "type": "redundancy", "note": "Citrulline is more bioavailable -- often redundant to take both" }
+    "aliases": [
+      "l-arginine",
+      "aakg"
     ],
-    "goals": ["blood-flow", "pump", "cardiovascular"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "citrulline",
+        "type": "redundancy",
+        "note": "Citrulline is more bioavailable -- often redundant to take both"
+      }
+    ],
+    "goals": [
+      "blood-flow",
+      "pump",
+      "cardiovascular"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "glutamine",
-    "aliases": ["l-glutamine"],
-    "timing": { "best": "any", "with_food": false },
+    "aliases": [
+      "l-glutamine"
+    ],
+    "timing": {
+      "best": "any",
+      "with_food": false
+    },
     "interactions": [],
-    "goals": ["gut-health", "recovery", "immunity"],
+    "goals": [
+      "gut-health",
+      "recovery",
+      "immunity"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "hmb",
-    "aliases": ["beta-hydroxy beta-methylbutyrate"],
-    "timing": { "best": "any", "with_food": false },
-    "interactions": [
-      { "with": "creatine", "type": "synergy", "note": "Both support muscle retention -- complementary mechanisms" },
-      { "with": "vitamin-d", "type": "synergy", "note": "HMB + vitamin D may improve muscle function in older adults" }
+    "aliases": [
+      "beta-hydroxy beta-methylbutyrate"
     ],
-    "goals": ["muscle", "recovery", "anti-catabolic"],
+    "timing": {
+      "best": "any",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "creatine",
+        "type": "synergy",
+        "note": "Both support muscle retention -- complementary mechanisms"
+      },
+      {
+        "with": "vitamin-d",
+        "type": "synergy",
+        "note": "HMB + vitamin D may improve muscle function in older adults"
+      }
+    ],
+    "goals": [
+      "muscle",
+      "recovery",
+      "anti-catabolic"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "collagen",
-    "aliases": ["collagen peptides", "hydrolyzed collagen", "collagen protein"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "vitamin-c", "type": "synergy", "note": "Vitamin C is essential for collagen synthesis" },
-      { "with": "hyaluronic-acid", "type": "synergy", "note": "Both support skin hydration and joint health" }
+    "aliases": [
+      "collagen peptides",
+      "hydrolyzed collagen",
+      "collagen protein"
     ],
-    "goals": ["skin", "joints", "hair", "gut-health"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "vitamin-c",
+        "type": "synergy",
+        "note": "Vitamin C is essential for collagen synthesis"
+      },
+      {
+        "with": "hyaluronic-acid",
+        "type": "synergy",
+        "note": "Both support skin hydration and joint health"
+      }
+    ],
+    "goals": [
+      "skin",
+      "joints",
+      "hair",
+      "gut-health"
+    ],
     "category": "protein"
   },
   {
     "supplement": "whey-protein",
-    "aliases": ["whey isolate", "whey concentrate", "whey"],
-    "timing": { "best": "any", "with_food": false },
-    "interactions": [
-      { "with": "creatine", "type": "synergy", "note": "Common post-workout stack for muscle protein synthesis" }
+    "aliases": [
+      "whey isolate",
+      "whey concentrate",
+      "whey"
     ],
-    "goals": ["muscle", "recovery", "protein-intake"],
+    "timing": {
+      "best": "any",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "creatine",
+        "type": "synergy",
+        "note": "Common post-workout stack for muscle protein synthesis"
+      }
+    ],
+    "goals": [
+      "muscle",
+      "recovery",
+      "protein-intake"
+    ],
     "category": "protein"
   },
   {
     "supplement": "curcumin",
-    "aliases": ["turmeric extract", "turmeric", "curcuminoids"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "black-pepper-extract", "type": "synergy", "note": "Piperine increases curcumin bioavailability by 2000%" },
-      { "with": "omega-3", "type": "synergy", "note": "Both are anti-inflammatory -- complementary mechanisms" },
-      { "with": "iron", "type": "competition", "note": "Curcumin can chelate iron -- space apart if iron-deficient" }
+    "aliases": [
+      "turmeric extract",
+      "turmeric",
+      "curcuminoids"
     ],
-    "goals": ["anti-inflammatory", "joints", "antioxidant", "brain"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "black-pepper-extract",
+        "type": "synergy",
+        "note": "Piperine increases curcumin bioavailability by 2000%"
+      },
+      {
+        "with": "omega-3",
+        "type": "synergy",
+        "note": "Both are anti-inflammatory -- complementary mechanisms"
+      },
+      {
+        "with": "iron",
+        "type": "competition",
+        "note": "Curcumin can chelate iron -- space apart if iron-deficient"
+      }
+    ],
+    "goals": [
+      "anti-inflammatory",
+      "joints",
+      "antioxidant",
+      "brain"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "black-pepper-extract",
-    "aliases": ["piperine", "bioperine"],
-    "timing": { "best": "any", "with_food": true },
-    "interactions": [
-      { "with": "curcumin", "type": "synergy", "note": "Piperine increases curcumin bioavailability by 2000%" },
-      { "with": "coq10", "type": "synergy", "note": "Piperine may improve CoQ10 absorption" }
+    "aliases": [
+      "piperine",
+      "bioperine"
     ],
-    "goals": ["bioavailability", "digestion"],
-    "category": "botanical"
+    "timing": {
+      "best": "any",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "curcumin",
+        "type": "synergy",
+        "note": "Piperine increases curcumin bioavailability by 2000%"
+      },
+      {
+        "with": "coq10",
+        "type": "synergy",
+        "note": "Piperine may improve CoQ10 absorption"
+      }
+    ],
+    "goals": [
+      "bioavailability",
+      "digestion"
+    ],
+    "category": "botanical",
+    "commonly_with": [
+      {
+        "supplement": "turmeric",
+        "reason": "Piperine makes curcumin actually absorbable"
+      }
+    ]
   },
   {
     "supplement": "berberine",
-    "aliases": ["berberine hcl", "dihydroberberine"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "metformin", "type": "caution", "note": "Both lower blood sugar -- risk of hypoglycemia if combined" },
-      { "with": "milk-thistle", "type": "synergy", "note": "Both support liver and metabolic health" }
+    "aliases": [
+      "berberine hcl",
+      "dihydroberberine"
     ],
-    "goals": ["blood-sugar", "insulin-sensitivity", "gut-health", "longevity"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "metformin",
+        "type": "caution",
+        "note": "Both lower blood sugar -- risk of hypoglycemia if combined"
+      },
+      {
+        "with": "milk-thistle",
+        "type": "synergy",
+        "note": "Both support liver and metabolic health"
+      }
+    ],
+    "goals": [
+      "blood-sugar",
+      "insulin-sensitivity",
+      "gut-health",
+      "longevity"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "quercetin",
-    "aliases": ["quercetin dihydrate", "quercetin phytosome"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "zinc", "type": "synergy", "note": "Quercetin acts as a zinc ionophore -- improves cellular zinc uptake" },
-      { "with": "vitamin-c", "type": "synergy", "note": "Both support immune function and are anti-inflammatory" },
-      { "with": "green-tea-extract", "type": "synergy", "note": "Both are polyphenols with complementary antioxidant effects" }
+    "aliases": [
+      "quercetin dihydrate",
+      "quercetin phytosome"
     ],
-    "goals": ["immunity", "anti-inflammatory", "allergy", "senolytic"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "zinc",
+        "type": "synergy",
+        "note": "Quercetin acts as a zinc ionophore -- improves cellular zinc uptake"
+      },
+      {
+        "with": "vitamin-c",
+        "type": "synergy",
+        "note": "Both support immune function and are anti-inflammatory"
+      },
+      {
+        "with": "green-tea-extract",
+        "type": "synergy",
+        "note": "Both are polyphenols with complementary antioxidant effects"
+      }
+    ],
+    "goals": [
+      "immunity",
+      "anti-inflammatory",
+      "allergy",
+      "senolytic"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "green-tea-extract",
-    "aliases": ["egcg", "matcha extract", "camellia sinensis"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "iron", "type": "competition", "note": "EGCG inhibits iron absorption -- space 2hr apart" },
-      { "with": "caffeine", "type": "synergy", "note": "Contains caffeine -- synergistic for fat oxidation" },
-      { "with": "quercetin", "type": "synergy", "note": "Complementary polyphenol antioxidant effects" }
+    "aliases": [
+      "egcg",
+      "matcha extract",
+      "camellia sinensis"
     ],
-    "goals": ["fat-loss", "antioxidant", "metabolism", "brain"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "iron",
+        "type": "competition",
+        "note": "EGCG inhibits iron absorption -- space 2hr apart"
+      },
+      {
+        "with": "caffeine",
+        "type": "synergy",
+        "note": "Contains caffeine -- synergistic for fat oxidation"
+      },
+      {
+        "with": "quercetin",
+        "type": "synergy",
+        "note": "Complementary polyphenol antioxidant effects"
+      }
+    ],
+    "goals": [
+      "fat-loss",
+      "antioxidant",
+      "metabolism",
+      "brain"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "milk-thistle",
-    "aliases": ["silymarin", "silybum marianum"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "nac", "type": "synergy", "note": "Both support liver detox pathways" },
-      { "with": "berberine", "type": "synergy", "note": "Both support liver and metabolic health" }
+    "aliases": [
+      "silymarin",
+      "silybum marianum"
     ],
-    "goals": ["liver", "detox", "antioxidant"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "nac",
+        "type": "synergy",
+        "note": "Both support liver detox pathways"
+      },
+      {
+        "with": "berberine",
+        "type": "synergy",
+        "note": "Both support liver and metabolic health"
+      }
+    ],
+    "goals": [
+      "liver",
+      "detox",
+      "antioxidant"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "saw-palmetto",
-    "aliases": ["serenoa repens"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "stinging-nettle", "type": "synergy", "note": "Both support prostate health -- commonly stacked" }
+    "aliases": [
+      "serenoa repens"
     ],
-    "goals": ["prostate", "hair-loss", "hormones"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "stinging-nettle",
+        "type": "synergy",
+        "note": "Both support prostate health -- commonly stacked"
+      }
+    ],
+    "goals": [
+      "prostate",
+      "hair-loss",
+      "hormones"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "stinging-nettle",
-    "aliases": ["nettle root", "urtica dioica"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "saw-palmetto", "type": "synergy", "note": "Both support prostate health -- commonly stacked" }
+    "aliases": [
+      "nettle root",
+      "urtica dioica"
     ],
-    "goals": ["prostate", "allergy", "inflammation"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "saw-palmetto",
+        "type": "synergy",
+        "note": "Both support prostate health -- commonly stacked"
+      }
+    ],
+    "goals": [
+      "prostate",
+      "allergy",
+      "inflammation"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "tongkat-ali",
-    "aliases": ["longjack", "eurycoma longifolia"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "ashwagandha", "type": "synergy", "note": "Both support testosterone -- tongkat boosts free T, ashwagandha lowers cortisol" },
-      { "with": "fadogia-agrestis", "type": "synergy", "note": "Commonly stacked for testosterone support" }
+    "aliases": [
+      "longjack",
+      "eurycoma longifolia"
     ],
-    "goals": ["testosterone", "libido", "energy", "stress"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "ashwagandha",
+        "type": "synergy",
+        "note": "Both support testosterone -- tongkat boosts free T, ashwagandha lowers cortisol"
+      },
+      {
+        "with": "fadogia-agrestis",
+        "type": "synergy",
+        "note": "Commonly stacked for testosterone support"
+      }
+    ],
+    "goals": [
+      "testosterone",
+      "libido",
+      "energy",
+      "stress"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "fadogia-agrestis",
-    "aliases": ["fadogia"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "tongkat-ali", "type": "synergy", "note": "Commonly stacked -- fadogia stimulates LH, tongkat frees bound T" }
+    "aliases": [
+      "fadogia"
     ],
-    "goals": ["testosterone", "libido"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "tongkat-ali",
+        "type": "synergy",
+        "note": "Commonly stacked -- fadogia stimulates LH, tongkat frees bound T"
+      }
+    ],
+    "goals": [
+      "testosterone",
+      "libido"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "fenugreek",
-    "aliases": ["testofen", "trigonella foenum-graecum"],
-    "timing": { "best": "morning", "with_food": true },
+    "aliases": [
+      "testofen",
+      "trigonella foenum-graecum"
+    ],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
     "interactions": [],
-    "goals": ["testosterone", "blood-sugar", "libido"],
+    "goals": [
+      "testosterone",
+      "blood-sugar",
+      "libido"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "maca",
-    "aliases": ["maca root", "lepidium meyenii"],
-    "timing": { "best": "morning", "with_food": true },
+    "aliases": [
+      "maca root",
+      "lepidium meyenii"
+    ],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
     "interactions": [],
-    "goals": ["libido", "energy", "hormones", "mood"],
+    "goals": [
+      "libido",
+      "energy",
+      "hormones",
+      "mood"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "st-johns-wort",
-    "aliases": ["hypericum perforatum", "st john's wort"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "5-htp", "type": "caution", "note": "Both raise serotonin -- risk of serotonin syndrome" },
-      { "with": "ssri", "type": "caution", "note": "Both raise serotonin -- do NOT combine" }
+    "aliases": [
+      "hypericum perforatum",
+      "st john's wort"
     ],
-    "goals": ["mood", "depression", "anxiety"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "5-htp",
+        "type": "caution",
+        "note": "Both raise serotonin -- risk of serotonin syndrome"
+      },
+      {
+        "with": "ssri",
+        "type": "caution",
+        "note": "Both raise serotonin -- do NOT combine"
+      }
+    ],
+    "goals": [
+      "mood",
+      "depression",
+      "anxiety"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "valerian",
-    "aliases": ["valerian root", "valeriana officinalis"],
-    "timing": { "best": "evening", "with_food": false },
-    "interactions": [
-      { "with": "magnesium", "type": "synergy", "note": "Both promote GABA-mediated relaxation and sleep" },
-      { "with": "melatonin", "type": "synergy", "note": "Both promote sleep -- valerian improves onset, melatonin regulates rhythm" }
+    "aliases": [
+      "valerian root",
+      "valeriana officinalis"
     ],
-    "goals": ["sleep", "anxiety", "relaxation"],
+    "timing": {
+      "best": "evening",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Both promote GABA-mediated relaxation and sleep"
+      },
+      {
+        "with": "melatonin",
+        "type": "synergy",
+        "note": "Both promote sleep -- valerian improves onset, melatonin regulates rhythm"
+      }
+    ],
+    "goals": [
+      "sleep",
+      "anxiety",
+      "relaxation"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "ginkgo-biloba",
-    "aliases": ["ginkgo", "ginkgo extract"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "omega-3", "type": "synergy", "note": "Both support brain blood flow and cognition" }
+    "aliases": [
+      "ginkgo",
+      "ginkgo extract"
     ],
-    "goals": ["brain", "memory", "blood-flow", "focus"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "omega-3",
+        "type": "synergy",
+        "note": "Both support brain blood flow and cognition"
+      }
+    ],
+    "goals": [
+      "brain",
+      "memory",
+      "blood-flow",
+      "focus"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "bacopa",
-    "aliases": ["bacopa monnieri", "brahmi"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "lions-mane", "type": "synergy", "note": "Both support memory and neuroplasticity -- different mechanisms" }
+    "aliases": [
+      "bacopa monnieri",
+      "brahmi"
     ],
-    "goals": ["memory", "focus", "anxiety", "brain"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "lions-mane",
+        "type": "synergy",
+        "note": "Both support memory and neuroplasticity -- different mechanisms"
+      }
+    ],
+    "goals": [
+      "memory",
+      "focus",
+      "anxiety",
+      "brain"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "caffeine",
-    "aliases": ["caffeine anhydrous", "coffee extract"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "l-theanine", "type": "synergy", "note": "Classic stack -- theanine removes jitters while preserving focus" },
-      { "with": "rhodiola", "type": "synergy", "note": "Rhodiola smooths caffeine response and reduces crash" },
-      { "with": "l-tyrosine", "type": "synergy", "note": "Both increase dopamine -- enhanced focus and motivation" },
-      { "with": "iron", "type": "competition", "note": "Caffeine inhibits iron absorption -- space 1hr apart" },
-      { "with": "creatine", "type": "neutral", "note": "No meaningful interaction despite old claims" }
+    "aliases": [
+      "caffeine anhydrous",
+      "coffee extract"
     ],
-    "goals": ["energy", "focus", "fat-loss", "performance"],
-    "category": "stimulant"
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "l-theanine",
+        "type": "synergy",
+        "note": "Classic stack -- theanine removes jitters while preserving focus"
+      },
+      {
+        "with": "rhodiola",
+        "type": "synergy",
+        "note": "Rhodiola smooths caffeine response and reduces crash"
+      },
+      {
+        "with": "l-tyrosine",
+        "type": "synergy",
+        "note": "Both increase dopamine -- enhanced focus and motivation"
+      },
+      {
+        "with": "iron",
+        "type": "competition",
+        "note": "Caffeine inhibits iron absorption -- space 1hr apart"
+      },
+      {
+        "with": "creatine",
+        "type": "neutral",
+        "note": "No meaningful interaction despite old claims"
+      }
+    ],
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance"
+    ],
+    "category": "stimulant",
+    "commonly_with": [
+      {
+        "supplement": "l-theanine",
+        "reason": "Theanine removes caffeine jitters while keeping focus"
+      }
+    ]
   },
   {
     "supplement": "melatonin",
-    "aliases": ["time-release melatonin"],
-    "timing": { "best": "evening", "with_food": false },
-    "interactions": [
-      { "with": "magnesium", "type": "synergy", "note": "Both support sleep -- magnesium relaxes muscles, melatonin signals sleep" },
-      { "with": "valerian", "type": "synergy", "note": "Both promote sleep through different mechanisms" },
-      { "with": "caffeine", "type": "competition", "note": "Caffeine blocks melatonin production -- avoid caffeine after 2pm" }
+    "aliases": [
+      "time-release melatonin"
     ],
-    "goals": ["sleep", "circadian-rhythm", "antioxidant"],
-    "category": "hormone"
+    "timing": {
+      "best": "evening",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Both support sleep -- magnesium relaxes muscles, melatonin signals sleep"
+      },
+      {
+        "with": "valerian",
+        "type": "synergy",
+        "note": "Both promote sleep through different mechanisms"
+      },
+      {
+        "with": "caffeine",
+        "type": "competition",
+        "note": "Caffeine blocks melatonin production -- avoid caffeine after 2pm"
+      }
+    ],
+    "goals": [
+      "sleep",
+      "circadian-rhythm",
+      "antioxidant"
+    ],
+    "category": "hormone",
+    "commonly_with": [
+      {
+        "supplement": "magnesium",
+        "reason": "Magnesium relaxes muscles while melatonin signals sleep"
+      }
+    ]
   },
   {
     "supplement": "dhea",
-    "aliases": ["dehydroepiandrosterone", "7-keto dhea"],
-    "timing": { "best": "morning", "with_food": true },
+    "aliases": [
+      "dehydroepiandrosterone",
+      "7-keto dhea"
+    ],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
     "interactions": [],
-    "goals": ["hormones", "anti-aging", "mood"],
+    "goals": [
+      "hormones",
+      "anti-aging",
+      "mood"
+    ],
     "category": "hormone"
   },
   {
     "supplement": "pregnenolone",
     "aliases": [],
-    "timing": { "best": "morning", "with_food": true },
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
     "interactions": [
-      { "with": "dhea", "type": "synergy", "note": "Pregnenolone is upstream of DHEA -- both support hormone cascade" }
+      {
+        "with": "dhea",
+        "type": "synergy",
+        "note": "Pregnenolone is upstream of DHEA -- both support hormone cascade"
+      }
     ],
-    "goals": ["hormones", "brain", "mood", "memory"],
+    "goals": [
+      "hormones",
+      "brain",
+      "mood",
+      "memory"
+    ],
     "category": "hormone"
   },
   {
     "supplement": "coq10",
-    "aliases": ["coenzyme q10", "ubiquinol", "ubiquinone"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "statin", "type": "synergy", "note": "Statins deplete CoQ10 -- supplementation is strongly recommended" },
-      { "with": "omega-3", "type": "synergy", "note": "Fat improves CoQ10 absorption" },
-      { "with": "pqq", "type": "synergy", "note": "CoQ10 supports existing mitochondria, PQQ stimulates new ones" },
-      { "with": "black-pepper-extract", "type": "synergy", "note": "Piperine may improve CoQ10 absorption" }
+    "aliases": [
+      "coenzyme q10",
+      "ubiquinol",
+      "ubiquinone"
     ],
-    "goals": ["energy", "cardiovascular", "mitochondria", "anti-aging"],
-    "category": "antioxidant"
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "statin",
+        "type": "synergy",
+        "note": "Statins deplete CoQ10 -- supplementation is strongly recommended"
+      },
+      {
+        "with": "omega-3",
+        "type": "synergy",
+        "note": "Fat improves CoQ10 absorption"
+      },
+      {
+        "with": "pqq",
+        "type": "synergy",
+        "note": "CoQ10 supports existing mitochondria, PQQ stimulates new ones"
+      },
+      {
+        "with": "black-pepper-extract",
+        "type": "synergy",
+        "note": "Piperine may improve CoQ10 absorption"
+      }
+    ],
+    "goals": [
+      "energy",
+      "cardiovascular",
+      "mitochondria",
+      "anti-aging"
+    ],
+    "category": "antioxidant",
+    "commonly_with": [
+      {
+        "supplement": "omega-3",
+        "reason": "CoQ10 absorbs better with dietary fat from fish oil"
+      }
+    ]
   },
   {
     "supplement": "pqq",
-    "aliases": ["pyrroloquinoline quinone"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "coq10", "type": "synergy", "note": "PQQ creates new mitochondria, CoQ10 fuels them -- powerful combo" }
+    "aliases": [
+      "pyrroloquinoline quinone"
     ],
-    "goals": ["mitochondria", "brain", "energy", "longevity"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "coq10",
+        "type": "synergy",
+        "note": "PQQ creates new mitochondria, CoQ10 fuels them -- powerful combo"
+      }
+    ],
+    "goals": [
+      "mitochondria",
+      "brain",
+      "energy",
+      "longevity"
+    ],
     "category": "antioxidant"
   },
   {
     "supplement": "alpha-lipoic-acid",
-    "aliases": ["ala", "r-lipoic acid", "r-ala"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "biotin", "type": "competition", "note": "ALA can compete with biotin for absorption -- space apart" },
-      { "with": "nac", "type": "synergy", "note": "Both recycle glutathione -- complementary antioxidant support" }
+    "aliases": [
+      "ala",
+      "r-lipoic acid",
+      "r-ala"
     ],
-    "goals": ["blood-sugar", "antioxidant", "neuropathy", "detox"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "biotin",
+        "type": "competition",
+        "note": "ALA can compete with biotin for absorption -- space apart"
+      },
+      {
+        "with": "nac",
+        "type": "synergy",
+        "note": "Both recycle glutathione -- complementary antioxidant support"
+      }
+    ],
+    "goals": [
+      "blood-sugar",
+      "antioxidant",
+      "neuropathy",
+      "detox"
+    ],
     "category": "antioxidant"
   },
   {
     "supplement": "resveratrol",
-    "aliases": ["trans-resveratrol"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "quercetin", "type": "synergy", "note": "Quercetin inhibits resveratrol metabolism -- increases bioavailability" },
-      { "with": "curcumin", "type": "synergy", "note": "Both activate AMPK and sirtuin pathways" },
-      { "with": "nmn", "type": "synergy", "note": "NMN provides NAD+ substrate, resveratrol activates sirtuins that use NAD+" }
+    "aliases": [
+      "trans-resveratrol"
     ],
-    "goals": ["longevity", "cardiovascular", "anti-inflammatory", "antioxidant"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "quercetin",
+        "type": "synergy",
+        "note": "Quercetin inhibits resveratrol metabolism -- increases bioavailability"
+      },
+      {
+        "with": "curcumin",
+        "type": "synergy",
+        "note": "Both activate AMPK and sirtuin pathways"
+      },
+      {
+        "with": "nmn",
+        "type": "synergy",
+        "note": "NMN provides NAD+ substrate, resveratrol activates sirtuins that use NAD+"
+      }
+    ],
+    "goals": [
+      "longevity",
+      "cardiovascular",
+      "anti-inflammatory",
+      "antioxidant"
+    ],
     "category": "antioxidant"
   },
   {
     "supplement": "astaxanthin",
     "aliases": [],
-    "timing": { "best": "morning", "with_food": true },
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
     "interactions": [
-      { "with": "omega-3", "type": "synergy", "note": "Astaxanthin protects omega-3 fats from oxidation" },
-      { "with": "vitamin-e", "type": "synergy", "note": "Both are fat-soluble antioxidants -- complementary" }
+      {
+        "with": "omega-3",
+        "type": "synergy",
+        "note": "Astaxanthin protects omega-3 fats from oxidation"
+      },
+      {
+        "with": "vitamin-e",
+        "type": "synergy",
+        "note": "Both are fat-soluble antioxidants -- complementary"
+      }
     ],
-    "goals": ["antioxidant", "skin", "eye-health", "endurance"],
+    "goals": [
+      "antioxidant",
+      "skin",
+      "eye-health",
+      "endurance"
+    ],
     "category": "antioxidant"
   },
   {
     "supplement": "glutathione",
-    "aliases": ["liposomal glutathione", "reduced glutathione", "gsh"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "nac", "type": "redundancy", "note": "NAC is a glutathione precursor -- taking both may be redundant" },
-      { "with": "vitamin-c", "type": "synergy", "note": "Vitamin C helps recycle glutathione" }
+    "aliases": [
+      "liposomal glutathione",
+      "reduced glutathione",
+      "gsh"
     ],
-    "goals": ["detox", "antioxidant", "skin", "immunity"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "nac",
+        "type": "redundancy",
+        "note": "NAC is a glutathione precursor -- taking both may be redundant"
+      },
+      {
+        "with": "vitamin-c",
+        "type": "synergy",
+        "note": "Vitamin C helps recycle glutathione"
+      }
+    ],
+    "goals": [
+      "detox",
+      "antioxidant",
+      "skin",
+      "immunity"
+    ],
     "category": "antioxidant"
   },
   {
     "supplement": "nmn",
-    "aliases": ["nicotinamide mononucleotide", "beta-nmn"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "resveratrol", "type": "synergy", "note": "NMN provides NAD+ substrate, resveratrol activates sirtuins that use NAD+" },
-      { "with": "tmg", "type": "synergy", "note": "NMN metabolism consumes methyl groups -- TMG replenishes them" },
-      { "with": "nr", "type": "redundancy", "note": "Both raise NAD+ -- typically pick one, not both" }
+    "aliases": [
+      "nicotinamide mononucleotide",
+      "beta-nmn"
     ],
-    "goals": ["longevity", "energy", "anti-aging", "mitochondria"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "resveratrol",
+        "type": "synergy",
+        "note": "NMN provides NAD+ substrate, resveratrol activates sirtuins that use NAD+"
+      },
+      {
+        "with": "tmg",
+        "type": "synergy",
+        "note": "NMN metabolism consumes methyl groups -- TMG replenishes them"
+      },
+      {
+        "with": "nr",
+        "type": "redundancy",
+        "note": "Both raise NAD+ -- typically pick one, not both"
+      }
+    ],
+    "goals": [
+      "longevity",
+      "energy",
+      "anti-aging",
+      "mitochondria"
+    ],
     "category": "longevity"
   },
   {
     "supplement": "nr",
-    "aliases": ["nicotinamide riboside", "niagen", "tru niagen"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "nmn", "type": "redundancy", "note": "Both raise NAD+ through similar pathways -- pick one" },
-      { "with": "tmg", "type": "synergy", "note": "NR metabolism may consume methyl groups -- TMG replenishes them" }
+    "aliases": [
+      "nicotinamide riboside",
+      "niagen",
+      "tru niagen"
     ],
-    "goals": ["longevity", "energy", "anti-aging", "mitochondria"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "nmn",
+        "type": "redundancy",
+        "note": "Both raise NAD+ through similar pathways -- pick one"
+      },
+      {
+        "with": "tmg",
+        "type": "synergy",
+        "note": "NR metabolism may consume methyl groups -- TMG replenishes them"
+      }
+    ],
+    "goals": [
+      "longevity",
+      "energy",
+      "anti-aging",
+      "mitochondria"
+    ],
     "category": "longevity"
   },
   {
     "supplement": "tmg",
-    "aliases": ["trimethylglycine", "betaine anhydrous", "betaine"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "nmn", "type": "synergy", "note": "TMG replenishes methyl groups consumed by NMN metabolism" },
-      { "with": "nr", "type": "synergy", "note": "TMG replenishes methyl groups consumed by NR metabolism" },
-      { "with": "sam-e", "type": "synergy", "note": "TMG supports SAM-e production via methylation" }
+    "aliases": [
+      "trimethylglycine",
+      "betaine anhydrous",
+      "betaine"
     ],
-    "goals": ["methylation", "liver", "longevity", "performance"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "nmn",
+        "type": "synergy",
+        "note": "TMG replenishes methyl groups consumed by NMN metabolism"
+      },
+      {
+        "with": "nr",
+        "type": "synergy",
+        "note": "TMG replenishes methyl groups consumed by NR metabolism"
+      },
+      {
+        "with": "sam-e",
+        "type": "synergy",
+        "note": "TMG supports SAM-e production via methylation"
+      }
+    ],
+    "goals": [
+      "methylation",
+      "liver",
+      "longevity",
+      "performance"
+    ],
     "category": "longevity"
   },
   {
     "supplement": "spermidine",
-    "aliases": ["wheat germ extract"],
-    "timing": { "best": "morning", "with_food": false },
+    "aliases": [
+      "wheat germ extract"
+    ],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
     "interactions": [],
-    "goals": ["longevity", "autophagy", "cardiovascular", "hair"],
+    "goals": [
+      "longevity",
+      "autophagy",
+      "cardiovascular",
+      "hair"
+    ],
     "category": "longevity"
   },
   {
     "supplement": "fisetin",
     "aliases": [],
-    "timing": { "best": "morning", "with_food": true },
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
     "interactions": [
-      { "with": "quercetin", "type": "synergy", "note": "Both are senolytics -- often used together in senolytic protocols" }
+      {
+        "with": "quercetin",
+        "type": "synergy",
+        "note": "Both are senolytics -- often used together in senolytic protocols"
+      }
     ],
-    "goals": ["longevity", "senolytic", "anti-inflammatory", "brain"],
+    "goals": [
+      "longevity",
+      "senolytic",
+      "anti-inflammatory",
+      "brain"
+    ],
     "category": "longevity"
   },
   {
     "supplement": "sam-e",
-    "aliases": ["s-adenosyl methionine", "s-adenosylmethionine"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "b12", "type": "synergy", "note": "B12 is required for SAM-e recycling in the methylation cycle" },
-      { "with": "folate", "type": "synergy", "note": "Folate supports SAM-e regeneration" },
-      { "with": "ssri", "type": "caution", "note": "Both raise serotonin -- risk of serotonin syndrome" },
-      { "with": "tmg", "type": "synergy", "note": "TMG supports SAM-e production" }
+    "aliases": [
+      "s-adenosyl methionine",
+      "s-adenosylmethionine"
     ],
-    "goals": ["mood", "joints", "liver", "methylation"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "b12",
+        "type": "synergy",
+        "note": "B12 is required for SAM-e recycling in the methylation cycle"
+      },
+      {
+        "with": "folate",
+        "type": "synergy",
+        "note": "Folate supports SAM-e regeneration"
+      },
+      {
+        "with": "ssri",
+        "type": "caution",
+        "note": "Both raise serotonin -- risk of serotonin syndrome"
+      },
+      {
+        "with": "tmg",
+        "type": "synergy",
+        "note": "TMG supports SAM-e production"
+      }
+    ],
+    "goals": [
+      "mood",
+      "joints",
+      "liver",
+      "methylation"
+    ],
     "category": "amino-acid"
   },
   {
     "supplement": "probiotics",
-    "aliases": ["lactobacillus", "bifidobacterium", "saccharomyces boulardii", "spore-based probiotics"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "prebiotics", "type": "synergy", "note": "Prebiotics feed probiotic bacteria -- take together" },
-      { "with": "antibiotics", "type": "competition", "note": "Antibiotics kill probiotics -- space 2hr apart" }
+    "aliases": [
+      "lactobacillus",
+      "bifidobacterium",
+      "saccharomyces boulardii",
+      "spore-based probiotics"
     ],
-    "goals": ["gut-health", "immunity", "digestion", "mood"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "prebiotics",
+        "type": "synergy",
+        "note": "Prebiotics feed probiotic bacteria -- take together"
+      },
+      {
+        "with": "antibiotics",
+        "type": "competition",
+        "note": "Antibiotics kill probiotics -- space 2hr apart"
+      }
+    ],
+    "goals": [
+      "gut-health",
+      "immunity",
+      "digestion",
+      "mood"
+    ],
     "category": "gut-health"
   },
   {
     "supplement": "prebiotics",
-    "aliases": ["inulin", "fos", "gos", "acacia fiber"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "probiotics", "type": "synergy", "note": "Prebiotics feed probiotic bacteria" }
+    "aliases": [
+      "inulin",
+      "fos",
+      "gos",
+      "acacia fiber"
     ],
-    "goals": ["gut-health", "digestion", "microbiome"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "probiotics",
+        "type": "synergy",
+        "note": "Prebiotics feed probiotic bacteria"
+      }
+    ],
+    "goals": [
+      "gut-health",
+      "digestion",
+      "microbiome"
+    ],
     "category": "gut-health"
   },
   {
     "supplement": "digestive-enzymes",
-    "aliases": ["bromelain", "papain", "lipase", "protease", "amylase"],
-    "timing": { "best": "any", "with_food": true },
+    "aliases": [
+      "bromelain",
+      "papain",
+      "lipase",
+      "protease",
+      "amylase"
+    ],
+    "timing": {
+      "best": "any",
+      "with_food": true
+    },
     "interactions": [],
-    "goals": ["digestion", "bloating", "nutrient-absorption"],
+    "goals": [
+      "digestion",
+      "bloating",
+      "nutrient-absorption"
+    ],
     "category": "gut-health"
   },
   {
     "supplement": "psyllium-husk",
-    "aliases": ["metamucil", "psyllium fiber", "isabgol"],
-    "timing": { "best": "evening", "with_food": false },
-    "interactions": [
-      { "with": "any-medication", "type": "caution", "note": "Fiber can reduce absorption of medications -- space 2hr apart" }
+    "aliases": [
+      "metamucil",
+      "psyllium fiber",
+      "isabgol"
     ],
-    "goals": ["digestion", "cholesterol", "blood-sugar", "gut-health"],
+    "timing": {
+      "best": "evening",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "any-medication",
+        "type": "caution",
+        "note": "Fiber can reduce absorption of medications -- space 2hr apart"
+      }
+    ],
+    "goals": [
+      "digestion",
+      "cholesterol",
+      "blood-sugar",
+      "gut-health"
+    ],
     "category": "fiber"
   },
   {
     "supplement": "beetroot",
-    "aliases": ["beet root powder", "beet juice", "beetroot extract"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "citrulline", "type": "synergy", "note": "Both boost nitric oxide through different pathways" }
+    "aliases": [
+      "beet root powder",
+      "beet juice",
+      "beetroot extract"
     ],
-    "goals": ["blood-flow", "endurance", "blood-pressure", "pump"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "citrulline",
+        "type": "synergy",
+        "note": "Both boost nitric oxide through different pathways"
+      }
+    ],
+    "goals": [
+      "blood-flow",
+      "endurance",
+      "blood-pressure",
+      "pump"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "electrolytes",
-    "aliases": ["lmnt", "liquid iv", "electrolyte mix", "sodium"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "magnesium", "type": "synergy", "note": "Magnesium is a key electrolyte -- often included" },
-      { "with": "potassium", "type": "synergy", "note": "Sodium and potassium balance each other" }
+    "aliases": [
+      "lmnt",
+      "liquid iv",
+      "electrolyte mix",
+      "sodium"
     ],
-    "goals": ["hydration", "energy", "exercise", "fasting"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "Magnesium is a key electrolyte -- often included"
+      },
+      {
+        "with": "potassium",
+        "type": "synergy",
+        "note": "Sodium and potassium balance each other"
+      }
+    ],
+    "goals": [
+      "hydration",
+      "energy",
+      "exercise",
+      "fasting"
+    ],
     "category": "mineral"
   },
   {
     "supplement": "vitamin-b6",
-    "aliases": ["pyridoxine", "p5p", "pyridoxal-5-phosphate"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "magnesium", "type": "synergy", "note": "B6 increases cellular magnesium absorption" },
-      { "with": "zinc", "type": "synergy", "note": "B6 and zinc together support neurotransmitter production" }
+    "aliases": [
+      "pyridoxine",
+      "p5p",
+      "pyridoxal-5-phosphate"
     ],
-    "goals": ["mood", "nervous-system", "hormones", "sleep"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "magnesium",
+        "type": "synergy",
+        "note": "B6 increases cellular magnesium absorption"
+      },
+      {
+        "with": "zinc",
+        "type": "synergy",
+        "note": "B6 and zinc together support neurotransmitter production"
+      }
+    ],
+    "goals": [
+      "mood",
+      "nervous-system",
+      "hormones",
+      "sleep"
+    ],
     "category": "vitamin"
   },
   {
     "supplement": "niacin",
-    "aliases": ["vitamin b3", "nicotinic acid", "niacinamide", "nicotinamide"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "lions-mane", "type": "synergy", "note": "Part of the Stamets stack -- niacin may enhance NGF delivery" },
-      { "with": "statin", "type": "caution", "note": "Both affect cholesterol -- monitor liver enzymes if combining" }
+    "aliases": [
+      "vitamin b3",
+      "nicotinic acid",
+      "niacinamide",
+      "nicotinamide"
     ],
-    "goals": ["cholesterol", "energy", "brain", "skin"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "lions-mane",
+        "type": "synergy",
+        "note": "Part of the Stamets stack -- niacin may enhance NGF delivery"
+      },
+      {
+        "with": "statin",
+        "type": "caution",
+        "note": "Both affect cholesterol -- monitor liver enzymes if combining"
+      }
+    ],
+    "goals": [
+      "cholesterol",
+      "energy",
+      "brain",
+      "skin"
+    ],
     "category": "vitamin"
   },
   {
     "supplement": "hyaluronic-acid",
-    "aliases": ["ha", "sodium hyaluronate"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "collagen", "type": "synergy", "note": "Both support skin hydration and joint cushioning" },
-      { "with": "vitamin-c", "type": "synergy", "note": "Vitamin C supports HA production in the body" }
+    "aliases": [
+      "ha",
+      "sodium hyaluronate"
     ],
-    "goals": ["skin", "joints", "hydration", "anti-aging"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "collagen",
+        "type": "synergy",
+        "note": "Both support skin hydration and joint cushioning"
+      },
+      {
+        "with": "vitamin-c",
+        "type": "synergy",
+        "note": "Vitamin C supports HA production in the body"
+      }
+    ],
+    "goals": [
+      "skin",
+      "joints",
+      "hydration",
+      "anti-aging"
+    ],
     "category": "specialty"
   },
   {
     "supplement": "activated-charcoal",
-    "aliases": ["charcoal", "activated carbon"],
-    "timing": { "best": "evening", "with_food": false },
-    "interactions": [
-      { "with": "nac", "type": "competition", "note": "Charcoal binds NAC -- space 2hr apart" },
-      { "with": "any-medication", "type": "caution", "note": "Charcoal absorbs medications and supplements -- space 2hr from everything" }
+    "aliases": [
+      "charcoal",
+      "activated carbon"
     ],
-    "goals": ["detox", "bloating", "gas"],
+    "timing": {
+      "best": "evening",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "nac",
+        "type": "competition",
+        "note": "Charcoal binds NAC -- space 2hr apart"
+      },
+      {
+        "with": "any-medication",
+        "type": "caution",
+        "note": "Charcoal absorbs medications and supplements -- space 2hr from everything"
+      }
+    ],
+    "goals": [
+      "detox",
+      "bloating",
+      "gas"
+    ],
     "category": "specialty"
   },
   {
     "supplement": "d-mannose",
     "aliases": [],
-    "timing": { "best": "any", "with_food": false },
+    "timing": {
+      "best": "any",
+      "with_food": false
+    },
     "interactions": [],
-    "goals": ["urinary-tract", "bladder-health"],
+    "goals": [
+      "urinary-tract",
+      "bladder-health"
+    ],
     "category": "specialty"
   },
   {
     "supplement": "phosphatidylserine",
-    "aliases": ["ps"],
-    "timing": { "best": "evening", "with_food": true },
-    "interactions": [
-      { "with": "omega-3", "type": "synergy", "note": "DHA is a building block of PS -- both support brain cell membranes" },
-      { "with": "ginkgo-biloba", "type": "synergy", "note": "Both support memory and cognitive function" }
+    "aliases": [
+      "ps"
     ],
-    "goals": ["brain", "memory", "cortisol", "stress"],
+    "timing": {
+      "best": "evening",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "omega-3",
+        "type": "synergy",
+        "note": "DHA is a building block of PS -- both support brain cell membranes"
+      },
+      {
+        "with": "ginkgo-biloba",
+        "type": "synergy",
+        "note": "Both support memory and cognitive function"
+      }
+    ],
+    "goals": [
+      "brain",
+      "memory",
+      "cortisol",
+      "stress"
+    ],
     "category": "nootropic"
   },
   {
     "supplement": "cdp-choline",
-    "aliases": ["citicoline", "cognizin"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "alpha-gpc", "type": "redundancy", "note": "Both raise choline/acetylcholine -- typically pick one" },
-      { "with": "racetams", "type": "synergy", "note": "Choline source prevents headaches common with racetam use" }
+    "aliases": [
+      "citicoline",
+      "cognizin"
     ],
-    "goals": ["focus", "memory", "brain", "neuroprotection"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "alpha-gpc",
+        "type": "redundancy",
+        "note": "Both raise choline/acetylcholine -- typically pick one"
+      },
+      {
+        "with": "racetams",
+        "type": "synergy",
+        "note": "Choline source prevents headaches common with racetam use"
+      }
+    ],
+    "goals": [
+      "focus",
+      "memory",
+      "brain",
+      "neuroprotection"
+    ],
     "category": "nootropic"
   },
   {
     "supplement": "alpha-gpc",
-    "aliases": ["alpha-glycerylphosphorylcholine", "choline alfoscerate"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "cdp-choline", "type": "redundancy", "note": "Both raise acetylcholine -- typically pick one" },
-      { "with": "caffeine", "type": "synergy", "note": "Both support focus and physical output" }
+    "aliases": [
+      "alpha-glycerylphosphorylcholine",
+      "choline alfoscerate"
     ],
-    "goals": ["focus", "memory", "power-output", "brain"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "cdp-choline",
+        "type": "redundancy",
+        "note": "Both raise acetylcholine -- typically pick one"
+      },
+      {
+        "with": "caffeine",
+        "type": "synergy",
+        "note": "Both support focus and physical output"
+      }
+    ],
+    "goals": [
+      "focus",
+      "memory",
+      "power-output",
+      "brain"
+    ],
     "category": "nootropic"
   },
   {
     "supplement": "sulforaphane",
-    "aliases": ["broccoli sprout extract", "broccoli seed extract"],
-    "timing": { "best": "morning", "with_food": false },
-    "interactions": [
-      { "with": "myrosinase", "type": "synergy", "note": "Myrosinase enzyme is required to convert glucoraphanin to sulforaphane" }
+    "aliases": [
+      "broccoli sprout extract",
+      "broccoli seed extract"
     ],
-    "goals": ["detox", "antioxidant", "anti-cancer", "longevity"],
+    "timing": {
+      "best": "morning",
+      "with_food": false
+    },
+    "interactions": [
+      {
+        "with": "myrosinase",
+        "type": "synergy",
+        "note": "Myrosinase enzyme is required to convert glucoraphanin to sulforaphane"
+      }
+    ],
+    "goals": [
+      "detox",
+      "antioxidant",
+      "anti-cancer",
+      "longevity"
+    ],
     "category": "botanical"
   },
   {
     "supplement": "dim",
-    "aliases": ["diindolylmethane", "3,3-diindolylmethane"],
-    "timing": { "best": "morning", "with_food": true },
-    "interactions": [
-      { "with": "calcium-d-glucarate", "type": "synergy", "note": "Both support healthy estrogen metabolism" }
+    "aliases": [
+      "diindolylmethane",
+      "3,3-diindolylmethane"
     ],
-    "goals": ["estrogen-metabolism", "hormones", "acne"],
+    "timing": {
+      "best": "morning",
+      "with_food": true
+    },
+    "interactions": [
+      {
+        "with": "calcium-d-glucarate",
+        "type": "synergy",
+        "note": "Both support healthy estrogen metabolism"
+      }
+    ],
+    "goals": [
+      "estrogen-metabolism",
+      "hormones",
+      "acne"
+    ],
     "category": "botanical"
   }
 ]

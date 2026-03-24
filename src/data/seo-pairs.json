@@ -1,7 +1,10 @@
 [
   {
     "slug": "ashwagandha-magnesium",
-    "supplements": ["ashwagandha", "magnesium"],
+    "supplements": [
+      "ashwagandha",
+      "magnesium"
+    ],
     "title": "Can You Take Ashwagandha and Magnesium Together?",
     "metaDescription": "Yes, ashwagandha and magnesium are a powerful synergy for sleep, stress relief, and recovery. Learn the best timing, dosage tips, and what to watch out for.",
     "interaction": {
@@ -11,15 +14,32 @@
     },
     "timing": {
       "recommendation": "Take both in the evening, 30-60 minutes before bed.",
-      "suppA": { "name": "ashwagandha", "best": "evening", "withFood": true, "note": "Take with a small snack -- fat improves absorption of withanolides." },
-      "suppB": { "name": "magnesium", "best": "evening", "withFood": true, "note": "Mag glycinate is well-tolerated with or without food. Evening dosing supports sleep." }
+      "suppA": {
+        "name": "ashwagandha",
+        "best": "evening",
+        "withFood": true,
+        "note": "Take with a small snack -- fat improves absorption of withanolides."
+      },
+      "suppB": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Mag glycinate is well-tolerated with or without food. Evening dosing supports sleep."
+      }
     },
-    "goals": ["sleep", "stress", "recovery"],
+    "goals": [
+      "sleep",
+      "stress",
+      "recovery"
+    ],
     "intro": "Ashwagandha and magnesium is one of the most popular biohacking stacks for a reason. Both target the stress-sleep axis, and together they deliver more than either supplement alone. Here's everything you need to know about combining them safely."
   },
   {
     "slug": "creatine-caffeine",
-    "supplements": ["creatine", "caffeine"],
+    "supplements": [
+      "creatine",
+      "caffeine"
+    ],
     "title": "Can You Take Creatine and Caffeine Together?",
     "metaDescription": "Creatine and caffeine can be taken together safely. Learn whether caffeine blunts creatine's effects, the best timing strategy, and how to stack them for performance.",
     "interaction": {
@@ -29,15 +49,32 @@
     },
     "timing": {
       "recommendation": "Take creatine any time daily (consistency matters more than timing). Take caffeine 30-60 minutes before training.",
-      "suppA": { "name": "creatine", "best": "any", "withFood": false, "note": "5g daily, any time. Mix with water. Loading phase optional." },
-      "suppB": { "name": "caffeine", "best": "morning/pre-workout", "withFood": false, "note": "200-400mg pre-workout. Avoid after 2pm to protect sleep." }
+      "suppA": {
+        "name": "creatine",
+        "best": "any",
+        "withFood": false,
+        "note": "5g daily, any time. Mix with water. Loading phase optional."
+      },
+      "suppB": {
+        "name": "caffeine",
+        "best": "morning/pre-workout",
+        "withFood": false,
+        "note": "200-400mg pre-workout. Avoid after 2pm to protect sleep."
+      }
     },
-    "goals": ["performance", "energy", "strength"],
+    "goals": [
+      "performance",
+      "energy",
+      "strength"
+    ],
     "intro": "Creatine and caffeine are two of the most well-researched performance supplements. The question of whether they cancel each other out has been debated for years. Here's what the science actually says."
   },
   {
     "slug": "vitamin-d-k2",
-    "supplements": ["vitamin-d", "k2"],
+    "supplements": [
+      "vitamin-d",
+      "k2"
+    ],
     "title": "Can You Take Vitamin D and K2 Together?",
     "metaDescription": "Vitamin D and K2 are one of the most important supplement synergies. Learn why you should always pair them, the ideal ratio, and the best forms to take.",
     "interaction": {
@@ -47,15 +84,32 @@
     },
     "timing": {
       "recommendation": "Take both together with a meal containing fat.",
-      "suppA": { "name": "vitamin-d", "best": "morning", "withFood": true, "note": "D3 is fat-soluble -- always take with a fatty meal. 2000-5000 IU daily is typical." },
-      "suppB": { "name": "k2", "best": "morning", "withFood": true, "note": "MK-7 form preferred (longer half-life). 100-200mcg daily. Also fat-soluble." }
+      "suppA": {
+        "name": "vitamin-d",
+        "best": "morning",
+        "withFood": true,
+        "note": "D3 is fat-soluble -- always take with a fatty meal. 2000-5000 IU daily is typical."
+      },
+      "suppB": {
+        "name": "k2",
+        "best": "morning",
+        "withFood": true,
+        "note": "MK-7 form preferred (longer half-life). 100-200mcg daily. Also fat-soluble."
+      }
     },
-    "goals": ["bone health", "cardiovascular", "immune"],
+    "goals": [
+      "bone health",
+      "cardiovascular",
+      "immune"
+    ],
     "intro": "If you take vitamin D, you need K2. Full stop. This is one of the most well-established supplement synergies in the biohacking world, and getting it wrong can do more harm than good. Here's the complete guide."
   },
   {
     "slug": "glycine-nac",
-    "supplements": ["glycine", "NAC"],
+    "supplements": [
+      "glycine",
+      "NAC"
+    ],
     "title": "Can You Take NAC and Glycine Together?",
     "metaDescription": "NAC and glycine together form GlyNAC, a powerful combo that boosts glutathione, the body's master antioxidant. Learn dosage, timing, and the research behind it.",
     "interaction": {
@@ -65,15 +119,32 @@
     },
     "timing": {
       "recommendation": "Take both on an empty stomach, split into 2 doses (morning and evening).",
-      "suppA": { "name": "glycine", "best": "morning + evening", "withFood": false, "note": "1.5g twice daily (3g total). Also supports sleep when taken at night." },
-      "suppB": { "name": "NAC", "best": "morning + evening", "withFood": false, "note": "600mg twice daily (1200mg total). Empty stomach for best absorption." }
+      "suppA": {
+        "name": "glycine",
+        "best": "morning + evening",
+        "withFood": false,
+        "note": "1.5g twice daily (3g total). Also supports sleep when taken at night."
+      },
+      "suppB": {
+        "name": "NAC",
+        "best": "morning + evening",
+        "withFood": false,
+        "note": "600mg twice daily (1200mg total). Empty stomach for best absorption."
+      }
     },
-    "goals": ["longevity", "antioxidant", "mitochondrial health"],
+    "goals": [
+      "longevity",
+      "antioxidant",
+      "mitochondrial health"
+    ],
     "intro": "GlyNAC -- the combination of glycine and NAC -- is one of the most exciting longevity interventions to emerge from recent research. It directly targets glutathione synthesis, which declines significantly with age. Here's what you need to know."
   },
   {
     "slug": "magnesium-zinc",
-    "supplements": ["magnesium", "zinc"],
+    "supplements": [
+      "magnesium",
+      "zinc"
+    ],
     "title": "Can You Take Magnesium and Zinc Together?",
     "metaDescription": "Magnesium and zinc compete for absorption. Learn the optimal way to take them -- timing, spacing, and forms that minimize competition.",
     "interaction": {
@@ -83,15 +154,33 @@
     },
     "timing": {
       "recommendation": "Space them at least 2 hours apart. Take zinc in the morning, magnesium in the evening.",
-      "suppA": { "name": "magnesium", "best": "evening", "withFood": true, "note": "Glycinate or threonate form for sleep. 200-400mg elemental. Evening dosing supports relaxation." },
-      "suppB": { "name": "zinc", "best": "morning", "withFood": true, "note": "15-30mg with breakfast. Zinc picolinate or bisglycinate for best absorption. Can cause nausea on empty stomach." }
+      "suppA": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Glycinate or threonate form for sleep. 200-400mg elemental. Evening dosing supports relaxation."
+      },
+      "suppB": {
+        "name": "zinc",
+        "best": "morning",
+        "withFood": true,
+        "note": "15-30mg with breakfast. Zinc picolinate or bisglycinate for best absorption. Can cause nausea on empty stomach."
+      }
     },
-    "goals": ["sleep", "immune", "recovery", "testosterone"],
+    "goals": [
+      "sleep",
+      "immune",
+      "recovery",
+      "testosterone"
+    ],
     "intro": "Magnesium and zinc are two of the most commonly supplemented minerals, but taking them together isn't straightforward. They compete for absorption, and getting the timing wrong means you're wasting money. Here's how to stack them properly."
   },
   {
     "slug": "omega-3-vitamin-d",
-    "supplements": ["omega-3", "vitamin-d"],
+    "supplements": [
+      "omega-3",
+      "vitamin-d"
+    ],
     "title": "Can You Take Omega-3 and Vitamin D Together?",
     "metaDescription": "Omega-3 and vitamin D are a perfect pair. The fat in fish oil boosts vitamin D absorption. Learn the best timing and dosage for this foundational stack.",
     "interaction": {
@@ -101,15 +190,33 @@
     },
     "timing": {
       "recommendation": "Take both together with your largest meal.",
-      "suppA": { "name": "omega-3", "best": "with meals", "withFood": true, "note": "2-3g combined EPA/DHA daily. Take with food to reduce fishy burps and improve absorption." },
-      "suppB": { "name": "vitamin-d", "best": "morning", "withFood": true, "note": "2000-5000 IU D3. The fat from fish oil enhances absorption. Pair with K2 as well." }
+      "suppA": {
+        "name": "omega-3",
+        "best": "with meals",
+        "withFood": true,
+        "note": "2-3g combined EPA/DHA daily. Take with food to reduce fishy burps and improve absorption."
+      },
+      "suppB": {
+        "name": "vitamin-d",
+        "best": "morning",
+        "withFood": true,
+        "note": "2000-5000 IU D3. The fat from fish oil enhances absorption. Pair with K2 as well."
+      }
     },
-    "goals": ["inflammation", "immune", "brain health", "cardiovascular"],
+    "goals": [
+      "inflammation",
+      "immune",
+      "brain health",
+      "cardiovascular"
+    ],
     "intro": "Omega-3 and vitamin D is a foundational stack that almost everyone should consider. They're synergistic, they're safe, and the science behind both is rock-solid. Here's how to take them together for maximum benefit."
   },
   {
     "slug": "berberine-metformin",
-    "supplements": ["berberine", "metformin"],
+    "supplements": [
+      "berberine",
+      "metformin"
+    ],
     "title": "Can You Take Berberine and Metformin Together?",
     "metaDescription": "Berberine and metformin both activate AMPK and lower blood sugar. Taking both together may cause hypoglycemia. Learn the risks, alternatives, and what to discuss with your doctor.",
     "interaction": {
@@ -119,15 +226,32 @@
     },
     "timing": {
       "recommendation": "Do NOT combine without medical supervision. If prescribed both, take with meals and monitor blood glucose.",
-      "suppA": { "name": "berberine", "best": "with meals", "withFood": true, "note": "500mg 2-3x daily with meals. GI side effects are common. Cycle 8 weeks on, 2 weeks off." },
-      "suppB": { "name": "metformin", "best": "with meals", "withFood": true, "note": "Prescription medication. Extended-release form reduces GI issues. Take with dinner." }
+      "suppA": {
+        "name": "berberine",
+        "best": "with meals",
+        "withFood": true,
+        "note": "500mg 2-3x daily with meals. GI side effects are common. Cycle 8 weeks on, 2 weeks off."
+      },
+      "suppB": {
+        "name": "metformin",
+        "best": "with meals",
+        "withFood": true,
+        "note": "Prescription medication. Extended-release form reduces GI issues. Take with dinner."
+      }
     },
-    "goals": ["blood sugar", "longevity", "metabolic health"],
+    "goals": [
+      "blood sugar",
+      "longevity",
+      "metabolic health"
+    ],
     "intro": "Berberine and metformin are both popular in the longevity community for their AMPK-activating, blood sugar-lowering effects. But combining them is risky. Here's what you need to know before stacking these two."
   },
   {
     "slug": "alpha-gpc-lions-mane",
-    "supplements": ["alpha-GPC", "lion's mane"],
+    "supplements": [
+      "alpha-GPC",
+      "lion's mane"
+    ],
     "title": "Can You Take Lion's Mane and Alpha-GPC Together?",
     "metaDescription": "Lion's mane and alpha-GPC are a top nootropic stack for focus and neuroplasticity. Learn the synergy, dosing, and timing for optimal cognitive performance.",
     "interaction": {
@@ -137,15 +261,33 @@
     },
     "timing": {
       "recommendation": "Take both in the morning with breakfast for cognitive performance throughout the day.",
-      "suppA": { "name": "alpha-GPC", "best": "morning", "withFood": true, "note": "300-600mg in the morning. Can cause headaches at high doses -- start low." },
-      "suppB": { "name": "lion's mane", "best": "morning", "withFood": true, "note": "500-1000mg standardized extract. Effects build over weeks -- be consistent." }
+      "suppA": {
+        "name": "alpha-GPC",
+        "best": "morning",
+        "withFood": true,
+        "note": "300-600mg in the morning. Can cause headaches at high doses -- start low."
+      },
+      "suppB": {
+        "name": "lion's mane",
+        "best": "morning",
+        "withFood": true,
+        "note": "500-1000mg standardized extract. Effects build over weeks -- be consistent."
+      }
     },
-    "goals": ["focus", "memory", "neuroplasticity", "cognition"],
+    "goals": [
+      "focus",
+      "memory",
+      "neuroplasticity",
+      "cognition"
+    ],
     "intro": "If you're building a nootropic stack, lion's mane and alpha-GPC is one of the best starting points. One builds new neural pathways, the other fuels them. Here's how to combine them for peak cognitive performance."
   },
   {
     "slug": "magnesium-melatonin",
-    "supplements": ["magnesium", "melatonin"],
+    "supplements": [
+      "magnesium",
+      "melatonin"
+    ],
     "title": "Can You Take Melatonin and Magnesium Together?",
     "metaDescription": "Melatonin and magnesium together are a safe, effective sleep stack. Learn the ideal dosing, timing, and why most people take too much melatonin.",
     "interaction": {
@@ -155,15 +297,32 @@
     },
     "timing": {
       "recommendation": "Take magnesium 1 hour before bed, melatonin 30 minutes before bed.",
-      "suppA": { "name": "magnesium", "best": "evening", "withFood": true, "note": "200-400mg magnesium glycinate. Take 60 minutes before bed for best effect." },
-      "suppB": { "name": "melatonin", "best": "evening", "withFood": false, "note": "0.3-0.5mg (NOT 5-10mg). Sublingual form for faster onset. Take 30 min before bed." }
+      "suppA": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "200-400mg magnesium glycinate. Take 60 minutes before bed for best effect."
+      },
+      "suppB": {
+        "name": "melatonin",
+        "best": "evening",
+        "withFood": false,
+        "note": "0.3-0.5mg (NOT 5-10mg). Sublingual form for faster onset. Take 30 min before bed."
+      }
     },
-    "goals": ["sleep", "circadian rhythm", "relaxation"],
+    "goals": [
+      "sleep",
+      "circadian rhythm",
+      "relaxation"
+    ],
     "intro": "The magnesium + melatonin stack is the go-to natural sleep protocol in the biohacking community. But most people are dosing melatonin wrong. Here's the evidence-based approach to combining these two for the best sleep of your life."
   },
   {
     "slug": "black-pepper-turmeric",
-    "supplements": ["black pepper", "turmeric"],
+    "supplements": [
+      "black pepper",
+      "turmeric"
+    ],
     "title": "Can You Take Turmeric and Black Pepper Together?",
     "metaDescription": "Black pepper (piperine) increases turmeric absorption by up to 2000%. Learn why you should never take turmeric without it, plus dosing and timing tips.",
     "interaction": {
@@ -173,10 +332,3905 @@
     },
     "timing": {
       "recommendation": "Take both together with a meal containing fat.",
-      "suppA": { "name": "turmeric", "best": "with meals", "withFood": true, "note": "500-1000mg curcumin extract, standardized to 95% curcuminoids. Fat improves absorption further." },
-      "suppB": { "name": "black pepper", "best": "with meals", "withFood": true, "note": "5-20mg piperine (BioPerine). Take at the same time as turmeric -- they must be absorbed together." }
+      "suppA": {
+        "name": "turmeric",
+        "best": "with meals",
+        "withFood": true,
+        "note": "500-1000mg curcumin extract, standardized to 95% curcuminoids. Fat improves absorption further."
+      },
+      "suppB": {
+        "name": "black pepper",
+        "best": "with meals",
+        "withFood": true,
+        "note": "5-20mg piperine (BioPerine). Take at the same time as turmeric -- they must be absorbed together."
+      }
     },
-    "goals": ["inflammation", "joint health", "recovery", "antioxidant"],
+    "goals": [
+      "inflammation",
+      "joint health",
+      "recovery",
+      "antioxidant"
+    ],
     "intro": "Taking turmeric without black pepper is like throwing money away. Piperine increases curcumin absorption by 2000% -- that's not a typo. Here's why this is the most important supplement pairing you're probably not optimizing."
+  },
+  {
+    "slug": "magnesium-vitamin-d",
+    "supplements": [
+      "magnesium",
+      "vitamin-d"
+    ],
+    "title": "Can You Take Magnesium and Vitamin D Together?",
+    "metaDescription": "Learn whether Magnesium and Vitamin D can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "D3 increases mag utilization.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the morning.",
+      "suppA": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-d",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "sleep",
+      "recovery",
+      "stress",
+      "muscle-cramps",
+      "bone-health"
+    ],
+    "intro": "Magnesium and Vitamin D are a powerful combination. D3 increases mag utilization Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "calcium-magnesium",
+    "supplements": [
+      "calcium",
+      "magnesium"
+    ],
+    "title": "Can You Take Calcium and Magnesium Together?",
+    "metaDescription": "Learn whether Calcium and Magnesium can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "High-dose calcium can reduce mag absorption -- space apart.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "calcium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "bone-health",
+      "muscle-function",
+      "sleep",
+      "recovery",
+      "stress"
+    ],
+    "intro": "Calcium and Magnesium can interact when taken together. High-dose calcium can reduce mag absorption -- space apart Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "iron-magnesium",
+    "supplements": [
+      "iron",
+      "magnesium"
+    ],
+    "title": "Can You Take Iron and Magnesium Together?",
+    "metaDescription": "Learn whether Iron and Magnesium can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Can reduce iron absorption -- take at different meals.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "iron",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "energy",
+      "anemia",
+      "endurance",
+      "sleep",
+      "recovery"
+    ],
+    "intro": "Iron and Magnesium can interact when taken together. Can reduce iron absorption -- take at different meals Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "copper-zinc",
+    "supplements": [
+      "copper",
+      "zinc"
+    ],
+    "title": "Can You Take Copper and Zinc Together?",
+    "metaDescription": "Learn whether Copper and Zinc can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Long-term zinc depletes copper -- supplement copper if taking >30mg/day.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "copper",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "zinc",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "immunity",
+      "connective-tissue",
+      "iron-metabolism",
+      "testosterone",
+      "skin"
+    ],
+    "intro": "Copper and Zinc can interact when taken together. Long-term zinc depletes copper -- supplement copper if taking >30mg/day Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "iron-zinc",
+    "supplements": [
+      "iron",
+      "zinc"
+    ],
+    "title": "Can You Take Iron and Zinc Together?",
+    "metaDescription": "Learn whether Iron and Zinc can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Compete for absorption -- take at different times.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "iron",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "zinc",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "energy",
+      "anemia",
+      "endurance",
+      "immunity",
+      "testosterone"
+    ],
+    "intro": "Iron and Zinc can interact when taken together. Compete for absorption -- take at different times Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "quercetin-zinc",
+    "supplements": [
+      "quercetin",
+      "zinc"
+    ],
+    "title": "Can You Take Quercetin and Zinc Together?",
+    "metaDescription": "Learn whether Quercetin and Zinc can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Quercetin acts as a zinc ionophore, improving cellular uptake.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the evening.",
+      "suppA": {
+        "name": "quercetin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "zinc",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "immunity",
+      "anti-inflammatory",
+      "allergy",
+      "senolytic",
+      "testosterone"
+    ],
+    "intro": "Quercetin and Zinc are a powerful combination. Quercetin acts as a zinc ionophore, improving cellular uptake Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "calcium-vitamin-d",
+    "supplements": [
+      "calcium",
+      "vitamin-d"
+    ],
+    "title": "Can You Take Calcium and Vitamin D Together?",
+    "metaDescription": "Learn whether Calcium and Vitamin D can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Vitamin D is required for calcium absorption.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the morning.",
+      "suppA": {
+        "name": "calcium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-d",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "bone-health",
+      "muscle-function",
+      "immunity",
+      "mood",
+      "hormones"
+    ],
+    "intro": "Calcium and Vitamin D are a powerful combination. Vitamin D is required for calcium absorption Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "calcium-vitamin-k2",
+    "supplements": [
+      "calcium",
+      "vitamin-k2"
+    ],
+    "title": "Can You Take Calcium and Vitamin K2 Together?",
+    "metaDescription": "Learn whether Calcium and Vitamin K2 can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "K2 directs calcium to bones instead of arteries.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the morning.",
+      "suppA": {
+        "name": "calcium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-k2",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "bone-health",
+      "muscle-function",
+      "cardiovascular",
+      "calcium-metabolism"
+    ],
+    "intro": "Calcium and Vitamin K2 are a powerful combination. K2 directs calcium to bones instead of arteries Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "calcium-iron",
+    "supplements": [
+      "calcium",
+      "iron"
+    ],
+    "title": "Can You Take Calcium and Iron Together?",
+    "metaDescription": "Learn whether Calcium and Iron can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Calcium inhibits iron absorption -- space 2hr apart.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "calcium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "iron",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "bone-health",
+      "muscle-function",
+      "energy",
+      "anemia",
+      "endurance"
+    ],
+    "intro": "Calcium and Iron can interact when taken together. Calcium inhibits iron absorption -- space 2hr apart Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "iron-vitamin-c",
+    "supplements": [
+      "iron",
+      "vitamin-c"
+    ],
+    "title": "Can You Take Iron and Vitamin C Together?",
+    "metaDescription": "Learn whether Iron and Vitamin C can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Vitamin C dramatically increases non-heme iron absorption.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "iron",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "anemia",
+      "endurance",
+      "immunity",
+      "antioxidant"
+    ],
+    "intro": "Iron and Vitamin C are a powerful combination. Vitamin C dramatically increases non-heme iron absorption Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "green-tea-extract-iron",
+    "supplements": [
+      "green-tea-extract",
+      "iron"
+    ],
+    "title": "Can You Take Green Tea Extract and Iron Together?",
+    "metaDescription": "Learn whether Green Tea Extract and Iron can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Polyphenols inhibit iron absorption -- space apart.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "green-tea-extract",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "iron",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "fat-loss",
+      "antioxidant",
+      "metabolism",
+      "brain",
+      "energy"
+    ],
+    "intro": "Green Tea Extract and Iron can interact when taken together. Polyphenols inhibit iron absorption -- space apart Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "copper-vitamin-c",
+    "supplements": [
+      "copper",
+      "vitamin-c"
+    ],
+    "title": "Can You Take Copper and Vitamin C Together?",
+    "metaDescription": "Learn whether Copper and Vitamin C can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "High-dose vitamin C can reduce copper absorption.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "copper",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "immunity",
+      "connective-tissue",
+      "iron-metabolism",
+      "antioxidant",
+      "skin"
+    ],
+    "intro": "Copper and Vitamin C can interact when taken together. High-dose vitamin C can reduce copper absorption Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "selenium-vitamin-e",
+    "supplements": [
+      "selenium",
+      "vitamin-e"
+    ],
+    "title": "Can You Take Selenium and Vitamin E Together?",
+    "metaDescription": "Learn whether Selenium and Vitamin E can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Selenium and vitamin E work together as antioxidants.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "selenium",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-e",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "thyroid",
+      "antioxidant",
+      "immunity",
+      "skin",
+      "cardiovascular"
+    ],
+    "intro": "Selenium and Vitamin E are a powerful combination. Selenium and vitamin E work together as antioxidants Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "iodine-selenium",
+    "supplements": [
+      "iodine",
+      "selenium"
+    ],
+    "title": "Can You Take Iodine and Selenium Together?",
+    "metaDescription": "Learn whether Iodine and Selenium can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both needed for thyroid function -- take together.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "iodine",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "selenium",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "thyroid",
+      "metabolism",
+      "antioxidant",
+      "immunity"
+    ],
+    "intro": "Iodine and Selenium are a powerful combination. Both needed for thyroid function -- take together Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "selenium-vitamin-c",
+    "supplements": [
+      "selenium",
+      "vitamin-c"
+    ],
+    "title": "Can You Take Selenium and Vitamin C Together?",
+    "metaDescription": "Learn whether Selenium and Vitamin C can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "High-dose vitamin C can reduce selenite absorption -- use selenomethionine form to avoid.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "selenium",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "thyroid",
+      "antioxidant",
+      "immunity",
+      "skin",
+      "iron-absorption"
+    ],
+    "intro": "Selenium and Vitamin C can interact when taken together. High-dose vitamin C can reduce selenite absorption -- use selenomethionine form to avoid Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "magnesium-potassium",
+    "supplements": [
+      "magnesium",
+      "potassium"
+    ],
+    "title": "Can You Take Magnesium and Potassium Together?",
+    "metaDescription": "Learn whether Magnesium and Potassium can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Magnesium helps retain potassium -- take together.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the any.",
+      "suppA": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "potassium",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "sleep",
+      "recovery",
+      "stress",
+      "muscle-cramps",
+      "electrolytes"
+    ],
+    "intro": "Magnesium and Potassium are a powerful combination. Magnesium helps retain potassium -- take together Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "chromium-iron",
+    "supplements": [
+      "chromium",
+      "iron"
+    ],
+    "title": "Can You Take Chromium and Iron Together?",
+    "metaDescription": "Learn whether Chromium and Iron can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Chromium and iron compete for transferrin binding -- space apart.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "chromium",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "iron",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "blood-sugar",
+      "insulin-sensitivity",
+      "cravings",
+      "energy",
+      "anemia"
+    ],
+    "intro": "Chromium and Iron can interact when taken together. Chromium and iron compete for transferrin binding -- space apart Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "boron-vitamin-d",
+    "supplements": [
+      "boron",
+      "vitamin-d"
+    ],
+    "title": "Can You Take Boron and Vitamin D Together?",
+    "metaDescription": "Learn whether Boron and Vitamin D can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Boron extends the half-life of vitamin D.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "boron",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-d",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "bone-health",
+      "testosterone",
+      "joint-health",
+      "immunity",
+      "mood"
+    ],
+    "intro": "Boron and Vitamin D are a powerful combination. Boron extends the half-life of vitamin D Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "boron-magnesium",
+    "supplements": [
+      "boron",
+      "magnesium"
+    ],
+    "title": "Can You Take Boron and Magnesium Together?",
+    "metaDescription": "Learn whether Boron and Magnesium can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Boron helps retain magnesium.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the evening.",
+      "suppA": {
+        "name": "boron",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "bone-health",
+      "testosterone",
+      "joint-health",
+      "sleep",
+      "recovery"
+    ],
+    "intro": "Boron and Magnesium are a powerful combination. Boron helps retain magnesium Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "vitamin-d-vitamin-k2",
+    "supplements": [
+      "vitamin-d",
+      "vitamin-k2"
+    ],
+    "title": "Can You Take Vitamin D and Vitamin K2 Together?",
+    "metaDescription": "Learn whether Vitamin D and Vitamin K2 can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "K2 directs D3-absorbed calcium to bones -- always pair them.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "vitamin-d",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-k2",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "bone-health",
+      "immunity",
+      "mood",
+      "hormones",
+      "cardiovascular"
+    ],
+    "intro": "Vitamin D and Vitamin K2 are a powerful combination. K2 directs D3-absorbed calcium to bones -- always pair them Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "vitamin-c-vitamin-e",
+    "supplements": [
+      "vitamin-c",
+      "vitamin-e"
+    ],
+    "title": "Can You Take Vitamin C and Vitamin E Together?",
+    "metaDescription": "Learn whether Vitamin C and Vitamin E can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Vitamin C regenerates oxidized vitamin E.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "vitamin-e",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "immunity",
+      "antioxidant",
+      "skin",
+      "iron-absorption",
+      "cardiovascular"
+    ],
+    "intro": "Vitamin C and Vitamin E are a powerful combination. Vitamin C regenerates oxidized vitamin E Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "b12-vitamin-c",
+    "supplements": [
+      "b12",
+      "vitamin-c"
+    ],
+    "title": "Can You Take B12 and Vitamin C Together?",
+    "metaDescription": "Learn whether B12 and Vitamin C can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "High-dose vitamin C may degrade B12 -- space 2hr apart.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "b12",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "nervous-system",
+      "methylation",
+      "mood",
+      "immunity"
+    ],
+    "intro": "B12 and Vitamin C can interact when taken together. High-dose vitamin C may degrade B12 -- space 2hr apart Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "nac-vitamin-c",
+    "supplements": [
+      "nac",
+      "vitamin-c"
+    ],
+    "title": "Can You Take NAC and Vitamin C Together?",
+    "metaDescription": "Learn whether NAC and Vitamin C can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both boost glutathione production.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "nac",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "detox",
+      "antioxidant",
+      "liver",
+      "respiratory",
+      "longevity"
+    ],
+    "intro": "NAC and Vitamin C are a powerful combination. Both boost glutathione production Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "vitamin-e-vitamin-k2",
+    "supplements": [
+      "vitamin-e",
+      "vitamin-k2"
+    ],
+    "title": "Can You Take Vitamin E and Vitamin K2 Together?",
+    "metaDescription": "Learn whether Vitamin E and Vitamin K2 can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "High-dose vitamin E may interfere with vitamin K -- space apart.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "vitamin-e",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-k2",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "antioxidant",
+      "skin",
+      "cardiovascular",
+      "bone-health",
+      "calcium-metabolism"
+    ],
+    "intro": "Vitamin E and Vitamin K2 can interact when taken together. High-dose vitamin E may interfere with vitamin K -- space apart Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "vitamin-a-vitamin-d",
+    "supplements": [
+      "vitamin-a",
+      "vitamin-d"
+    ],
+    "title": "Can You Take Vitamin A and Vitamin D Together?",
+    "metaDescription": "Learn whether Vitamin A and Vitamin D can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "High-dose vitamin A can antagonize vitamin D -- keep ratio balanced.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "vitamin-a",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-d",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "vision",
+      "immunity",
+      "skin",
+      "bone-health",
+      "mood"
+    ],
+    "intro": "Vitamin A and Vitamin D can interact when taken together. High-dose vitamin A can antagonize vitamin D -- keep ratio balanced Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "vitamin-a-zinc",
+    "supplements": [
+      "vitamin-a",
+      "zinc"
+    ],
+    "title": "Can You Take Vitamin A and Zinc Together?",
+    "metaDescription": "Learn whether Vitamin A and Zinc can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Zinc is needed to transport vitamin A from the liver.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the evening.",
+      "suppA": {
+        "name": "vitamin-a",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "zinc",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "vision",
+      "immunity",
+      "skin",
+      "testosterone",
+      "recovery"
+    ],
+    "intro": "Vitamin A and Zinc are a powerful combination. Zinc is needed to transport vitamin A from the liver Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "b-complex-magnesium",
+    "supplements": [
+      "b-complex",
+      "magnesium"
+    ],
+    "title": "Can You Take B Complex and Magnesium Together?",
+    "metaDescription": "Learn whether B Complex and Magnesium can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "B6 increases magnesium absorption into cells.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the evening.",
+      "suppA": {
+        "name": "b-complex",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "energy",
+      "mood",
+      "nervous-system",
+      "methylation",
+      "sleep"
+    ],
+    "intro": "B Complex and Magnesium are a powerful combination. B6 increases magnesium absorption into cells Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "b-complex-iron",
+    "supplements": [
+      "b-complex",
+      "iron"
+    ],
+    "title": "Can You Take B Complex and Iron Together?",
+    "metaDescription": "Learn whether B Complex and Iron can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "B vitamins support red blood cell production alongside iron.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "b-complex",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "iron",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "mood",
+      "nervous-system",
+      "methylation",
+      "anemia"
+    ],
+    "intro": "B Complex and Iron are a powerful combination. B vitamins support red blood cell production alongside iron Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "b12-folate",
+    "supplements": [
+      "b12",
+      "folate"
+    ],
+    "title": "Can You Take B12 and Folate Together?",
+    "metaDescription": "Learn whether B12 and Folate can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "B12 and folate work together in methylation cycle.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "b12",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "folate",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "energy",
+      "nervous-system",
+      "methylation",
+      "mood",
+      "prenatal"
+    ],
+    "intro": "B12 and Folate are a powerful combination. B12 and folate work together in methylation cycle Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "folate-zinc",
+    "supplements": [
+      "folate",
+      "zinc"
+    ],
+    "title": "Can You Take Folate and Zinc Together?",
+    "metaDescription": "Learn whether Folate and Zinc can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "High-dose folic acid may impair zinc absorption.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "folate",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "zinc",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "methylation",
+      "mood",
+      "prenatal",
+      "cardiovascular",
+      "immunity"
+    ],
+    "intro": "Folate and Zinc can interact when taken together. High-dose folic acid may impair zinc absorption Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "alpha-lipoic-acid-biotin",
+    "supplements": [
+      "alpha-lipoic-acid",
+      "biotin"
+    ],
+    "title": "Can You Take Alpha Lipoic Acid and Biotin Together?",
+    "metaDescription": "Learn whether Alpha Lipoic Acid and Biotin can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "ALA can compete with biotin for absorption -- space apart.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "alpha-lipoic-acid",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "biotin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "blood-sugar",
+      "antioxidant",
+      "neuropathy",
+      "detox",
+      "hair"
+    ],
+    "intro": "Alpha Lipoic Acid and Biotin can interact when taken together. ALA can compete with biotin for absorption -- space apart Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "omega-3-vitamin-e",
+    "supplements": [
+      "omega-3",
+      "vitamin-e"
+    ],
+    "title": "Can You Take Omega 3 and Vitamin E Together?",
+    "metaDescription": "Learn whether Omega 3 and Vitamin E can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Vitamin E protects omega-3 fats from oxidation.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "omega-3",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-e",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "cardiovascular",
+      "brain",
+      "anti-inflammatory",
+      "mood",
+      "antioxidant"
+    ],
+    "intro": "Omega 3 and Vitamin E are a powerful combination. Vitamin E protects omega-3 fats from oxidation Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "curcumin-omega-3",
+    "supplements": [
+      "curcumin",
+      "omega-3"
+    ],
+    "title": "Can You Take Curcumin and Omega 3 Together?",
+    "metaDescription": "Learn whether Curcumin and Omega 3 can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both are anti-inflammatory -- complementary mechanisms.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "curcumin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "omega-3",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "anti-inflammatory",
+      "joints",
+      "antioxidant",
+      "brain",
+      "cardiovascular"
+    ],
+    "intro": "Curcumin and Omega 3 are a powerful combination. Both are anti-inflammatory -- complementary mechanisms Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "astaxanthin-omega-3",
+    "supplements": [
+      "astaxanthin",
+      "omega-3"
+    ],
+    "title": "Can You Take Astaxanthin and Omega 3 Together?",
+    "metaDescription": "Learn whether Astaxanthin and Omega 3 can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Astaxanthin protects omega-3 from oxidation.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "astaxanthin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "omega-3",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "antioxidant",
+      "skin",
+      "eye-health",
+      "endurance",
+      "cardiovascular"
+    ],
+    "intro": "Astaxanthin and Omega 3 are a powerful combination. Astaxanthin protects omega-3 from oxidation Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "ashwagandha-rhodiola",
+    "supplements": [
+      "ashwagandha",
+      "rhodiola"
+    ],
+    "title": "Can You Take Ashwagandha and Rhodiola Together?",
+    "metaDescription": "Learn whether Ashwagandha and Rhodiola can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Complementary adaptogens -- ashwagandha calms, rhodiola energizes.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the morning.",
+      "suppA": {
+        "name": "ashwagandha",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "rhodiola",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "stress",
+      "sleep",
+      "testosterone",
+      "recovery",
+      "anxiety"
+    ],
+    "intro": "Ashwagandha and Rhodiola are a powerful combination. Complementary adaptogens -- ashwagandha calms, rhodiola energizes Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "caffeine-rhodiola",
+    "supplements": [
+      "caffeine",
+      "rhodiola"
+    ],
+    "title": "Can You Take Caffeine and Rhodiola Together?",
+    "metaDescription": "Learn whether Caffeine and Rhodiola can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Rhodiola smooths out caffeine jitters.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "rhodiola",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance",
+      "stress"
+    ],
+    "intro": "Caffeine and Rhodiola are a powerful combination. Rhodiola smooths out caffeine jitters Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "lions-mane-niacin",
+    "supplements": [
+      "lions-mane",
+      "niacin"
+    ],
+    "title": "Can You Take Lions Mane and Niacin Together?",
+    "metaDescription": "Learn whether Lions Mane and Niacin can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Niacin may enhance NGF activity from lion's mane (Stamets stack).",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "lions-mane",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "niacin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "brain",
+      "focus",
+      "neuroplasticity",
+      "mood",
+      "cholesterol"
+    ],
+    "intro": "Lions Mane and Niacin are a powerful combination. Niacin may enhance NGF activity from lion's mane (Stamets stack) Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "lions-mane-omega-3",
+    "supplements": [
+      "lions-mane",
+      "omega-3"
+    ],
+    "title": "Can You Take Lions Mane and Omega 3 Together?",
+    "metaDescription": "Learn whether Lions Mane and Omega 3 can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support neuroplasticity through different pathways.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "lions-mane",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "omega-3",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "brain",
+      "focus",
+      "neuroplasticity",
+      "mood",
+      "cardiovascular"
+    ],
+    "intro": "Lions Mane and Omega 3 are a powerful combination. Both support neuroplasticity through different pathways Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "ashwagandha-reishi",
+    "supplements": [
+      "ashwagandha",
+      "reishi"
+    ],
+    "title": "Can You Take Ashwagandha and Reishi Together?",
+    "metaDescription": "Learn whether Ashwagandha and Reishi can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both promote calm and sleep -- complementary mechanisms.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the evening with food.",
+      "suppA": {
+        "name": "ashwagandha",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "reishi",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "stress",
+      "sleep",
+      "testosterone",
+      "recovery",
+      "anxiety"
+    ],
+    "intro": "Ashwagandha and Reishi are a powerful combination. Both promote calm and sleep -- complementary mechanisms Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "caffeine-cordyceps",
+    "supplements": [
+      "caffeine",
+      "cordyceps"
+    ],
+    "title": "Can You Take Caffeine and Cordyceps Together?",
+    "metaDescription": "Learn whether Caffeine and Cordyceps can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both increase energy -- cordyceps via oxygen utilization.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "cordyceps",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance",
+      "endurance"
+    ],
+    "intro": "Caffeine and Cordyceps are a powerful combination. Both increase energy -- cordyceps via oxygen utilization Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "cordyceps-rhodiola",
+    "supplements": [
+      "cordyceps",
+      "rhodiola"
+    ],
+    "title": "Can You Take Cordyceps and Rhodiola Together?",
+    "metaDescription": "Learn whether Cordyceps and Rhodiola can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both improve endurance through different mechanisms.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "cordyceps",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "rhodiola",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "endurance",
+      "oxygen-utilization",
+      "libido",
+      "focus"
+    ],
+    "intro": "Cordyceps and Rhodiola are a powerful combination. Both improve endurance through different mechanisms Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "chaga-vitamin-c",
+    "supplements": [
+      "chaga",
+      "vitamin-c"
+    ],
+    "title": "Can You Take Chaga and Vitamin C Together?",
+    "metaDescription": "Learn whether Chaga and Vitamin C can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both are potent antioxidants -- complementary mechanisms.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "chaga",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "immunity",
+      "antioxidant",
+      "anti-inflammatory",
+      "skin",
+      "iron-absorption"
+    ],
+    "intro": "Chaga and Vitamin C are a powerful combination. Both are potent antioxidants -- complementary mechanisms Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "caffeine-creatine",
+    "supplements": [
+      "caffeine",
+      "creatine"
+    ],
+    "title": "Can You Take Caffeine and Creatine Together?",
+    "metaDescription": "Learn whether Caffeine and Creatine can be taken together. Interaction type: neutral. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "neutral",
+      "summary": "Old studies suggested conflict -- recent evidence shows no meaningful interaction.",
+      "details": "There is no significant positive or negative interaction between these two. They can be taken together safely without concern for interference."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the any.",
+      "suppA": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "creatine",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance",
+      "muscle"
+    ],
+    "intro": "Caffeine and Creatine are commonly stacked together. Old studies suggested conflict -- recent evidence shows no meaningful interaction Here's the full breakdown of how they interact and the best way to take them."
+  },
+  {
+    "slug": "beta-alanine-creatine",
+    "supplements": [
+      "beta-alanine",
+      "creatine"
+    ],
+    "title": "Can You Take Beta Alanine and Creatine Together?",
+    "metaDescription": "Learn whether Beta Alanine and Creatine can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Complementary performance enhancers -- different energy systems.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the any with food.",
+      "suppA": {
+        "name": "beta-alanine",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "creatine",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "endurance",
+      "muscle",
+      "exercise",
+      "strength",
+      "brain"
+    ],
+    "intro": "Beta Alanine and Creatine are a powerful combination. Complementary performance enhancers -- different energy systems Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "creatine-hmb",
+    "supplements": [
+      "creatine",
+      "hmb"
+    ],
+    "title": "Can You Take Creatine and Hmb Together?",
+    "metaDescription": "Learn whether Creatine and Hmb can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support muscle retention through different pathways.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the any with food.",
+      "suppA": {
+        "name": "creatine",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "hmb",
+        "best": "any",
+        "withFood": false,
+        "note": "Best taken in the any. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "muscle",
+      "strength",
+      "brain",
+      "recovery",
+      "anti-catabolic"
+    ],
+    "intro": "Creatine and Hmb are a powerful combination. Both support muscle retention through different pathways Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "caffeine-l-theanine",
+    "supplements": [
+      "caffeine",
+      "l-theanine"
+    ],
+    "title": "Can You Take Caffeine and L Theanine Together?",
+    "metaDescription": "Learn whether Caffeine and L Theanine can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Classic nootropic stack -- theanine smooths caffeine, improves focus without jitters.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "l-theanine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance",
+      "calm"
+    ],
+    "intro": "Caffeine and L Theanine are a powerful combination. Classic nootropic stack -- theanine smooths caffeine, improves focus without jitters Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "l-theanine-magnesium",
+    "supplements": [
+      "l-theanine",
+      "magnesium"
+    ],
+    "title": "Can You Take L Theanine and Magnesium Together?",
+    "metaDescription": "Learn whether L Theanine and Magnesium can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both promote GABA activity and calm focus.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the evening.",
+      "suppA": {
+        "name": "l-theanine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "focus",
+      "calm",
+      "sleep",
+      "anxiety",
+      "recovery"
+    ],
+    "intro": "L Theanine and Magnesium are a powerful combination. Both promote GABA activity and calm focus Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "activated-charcoal-nac",
+    "supplements": [
+      "activated-charcoal",
+      "nac"
+    ],
+    "title": "Can You Take Activated Charcoal and NAC Together?",
+    "metaDescription": "Learn whether Activated Charcoal and NAC can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Charcoal can bind NAC -- space 2hr apart.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "activated-charcoal",
+        "best": "evening",
+        "withFood": false,
+        "note": "Best taken in the evening. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "nac",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "detox",
+      "bloating",
+      "gas",
+      "antioxidant",
+      "liver"
+    ],
+    "intro": "Activated Charcoal and NAC can interact when taken together. Charcoal can bind NAC -- space 2hr apart Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "glycine-magnesium",
+    "supplements": [
+      "glycine",
+      "magnesium"
+    ],
+    "title": "Can You Take Glycine and Magnesium Together?",
+    "metaDescription": "Learn whether Glycine and Magnesium can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support sleep quality through different mechanisms.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the evening.",
+      "suppA": {
+        "name": "glycine",
+        "best": "evening",
+        "withFood": false,
+        "note": "Best taken in the evening. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "sleep",
+      "longevity",
+      "collagen",
+      "detox",
+      "recovery"
+    ],
+    "intro": "Glycine and Magnesium are a powerful combination. Both support sleep quality through different mechanisms Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "magnesium-taurine",
+    "supplements": [
+      "magnesium",
+      "taurine"
+    ],
+    "title": "Can You Take Magnesium and Taurine Together?",
+    "metaDescription": "Learn whether Magnesium and Taurine can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support cardiovascular and nervous system function.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the any.",
+      "suppA": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "taurine",
+        "best": "any",
+        "withFood": false,
+        "note": "Best taken in the any. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "sleep",
+      "recovery",
+      "stress",
+      "muscle-cramps",
+      "cardiovascular"
+    ],
+    "intro": "Magnesium and Taurine are a powerful combination. Both support cardiovascular and nervous system function Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "caffeine-taurine",
+    "supplements": [
+      "caffeine",
+      "taurine"
+    ],
+    "title": "Can You Take Caffeine and Taurine Together?",
+    "metaDescription": "Learn whether Caffeine and Taurine can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Taurine may offset some negative cardiovascular effects of caffeine.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the any.",
+      "suppA": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "taurine",
+        "best": "any",
+        "withFood": false,
+        "note": "Best taken in the any. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance",
+      "cardiovascular"
+    ],
+    "intro": "Caffeine and Taurine are a powerful combination. Taurine may offset some negative cardiovascular effects of caffeine Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "caffeine-l-tyrosine",
+    "supplements": [
+      "caffeine",
+      "l-tyrosine"
+    ],
+    "title": "Can You Take Caffeine and L Tyrosine Together?",
+    "metaDescription": "Learn whether Caffeine and L Tyrosine can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both increase dopamine -- good pre-workout or focus stack.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "l-tyrosine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance",
+      "motivation"
+    ],
+    "intro": "Caffeine and L Tyrosine are a powerful combination. Both increase dopamine -- good pre-workout or focus stack Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "5-htp-l-tyrosine",
+    "supplements": [
+      "5-htp",
+      "l-tyrosine"
+    ],
+    "title": "Can You Take 5 Htp and L Tyrosine Together?",
+    "metaDescription": "Learn whether 5 Htp and L Tyrosine can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Tyrosine (dopamine) and 5-HTP (serotonin) balance each other.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the morning.",
+      "suppA": {
+        "name": "5-htp",
+        "best": "evening",
+        "withFood": false,
+        "note": "Best taken in the evening. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "l-tyrosine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "mood",
+      "sleep",
+      "anxiety",
+      "appetite",
+      "focus"
+    ],
+    "intro": "5 Htp and L Tyrosine are a powerful combination. Tyrosine (dopamine) and 5-HTP (serotonin) balance each other Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "5-htp-st-johns-wort",
+    "supplements": [
+      "5-htp",
+      "st-johns-wort"
+    ],
+    "title": "Can You Take 5 Htp and St Johns Wort Together?",
+    "metaDescription": "Learn whether 5 Htp and St Johns Wort can be taken together. Interaction type: caution. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "caution",
+      "summary": "Both raise serotonin -- risk of serotonin syndrome.",
+      "details": "There is no significant positive or negative interaction between these two. They can be taken together safely without concern for interference."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the morning.",
+      "suppA": {
+        "name": "5-htp",
+        "best": "evening",
+        "withFood": false,
+        "note": "Best taken in the evening. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "st-johns-wort",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "mood",
+      "sleep",
+      "anxiety",
+      "appetite",
+      "depression"
+    ],
+    "intro": "5 Htp and St Johns Wort are commonly stacked together. Both raise serotonin -- risk of serotonin syndrome Here's the full breakdown of how they interact and the best way to take them."
+  },
+  {
+    "slug": "beta-alanine-taurine",
+    "supplements": [
+      "beta-alanine",
+      "taurine"
+    ],
+    "title": "Can You Take Beta Alanine and Taurine Together?",
+    "metaDescription": "Learn whether Beta Alanine and Taurine can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Beta-alanine can deplete taurine over time -- supplement taurine if using long-term.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "beta-alanine",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "taurine",
+        "best": "any",
+        "withFood": false,
+        "note": "Best taken in the any. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "endurance",
+      "muscle",
+      "exercise",
+      "cardiovascular",
+      "longevity"
+    ],
+    "intro": "Beta Alanine and Taurine can interact when taken together. Beta-alanine can deplete taurine over time -- supplement taurine if using long-term Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "arginine-citrulline",
+    "supplements": [
+      "arginine",
+      "citrulline"
+    ],
+    "title": "Can You Take Arginine and Citrulline Together?",
+    "metaDescription": "Learn whether Arginine and Citrulline can be taken together. Interaction type: redundancy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "redundancy",
+      "summary": "Citrulline converts to arginine and is more bioavailable -- citrulline alone is sufficient.",
+      "details": "There is no significant positive or negative interaction between these two. They can be taken together safely without concern for interference."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "arginine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "citrulline",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "blood-flow",
+      "pump",
+      "cardiovascular",
+      "endurance",
+      "blood-pressure"
+    ],
+    "intro": "Arginine and Citrulline are commonly stacked together. Citrulline converts to arginine and is more bioavailable -- citrulline alone is sufficient Here's the full breakdown of how they interact and the best way to take them."
+  },
+  {
+    "slug": "beetroot-citrulline",
+    "supplements": [
+      "beetroot",
+      "citrulline"
+    ],
+    "title": "Can You Take Beetroot and Citrulline Together?",
+    "metaDescription": "Learn whether Beetroot and Citrulline can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both boost nitric oxide through different pathways.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "beetroot",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "citrulline",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "blood-flow",
+      "endurance",
+      "blood-pressure",
+      "pump"
+    ],
+    "intro": "Beetroot and Citrulline are a powerful combination. Both boost nitric oxide through different pathways Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "hmb-vitamin-d",
+    "supplements": [
+      "hmb",
+      "vitamin-d"
+    ],
+    "title": "Can You Take Hmb and Vitamin D Together?",
+    "metaDescription": "Learn whether Hmb and Vitamin D can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "HMB + vitamin D may improve muscle function in older adults.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the any, the other in the morning.",
+      "suppA": {
+        "name": "hmb",
+        "best": "any",
+        "withFood": false,
+        "note": "Best taken in the any. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "vitamin-d",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "muscle",
+      "recovery",
+      "anti-catabolic",
+      "bone-health",
+      "immunity"
+    ],
+    "intro": "Hmb and Vitamin D are a powerful combination. HMB + vitamin D may improve muscle function in older adults Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "collagen-vitamin-c",
+    "supplements": [
+      "collagen",
+      "vitamin-c"
+    ],
+    "title": "Can You Take Collagen and Vitamin C Together?",
+    "metaDescription": "Learn whether Collagen and Vitamin C can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Vitamin C is essential for collagen synthesis.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "collagen",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "skin",
+      "joints",
+      "hair",
+      "gut-health",
+      "immunity"
+    ],
+    "intro": "Collagen and Vitamin C are a powerful combination. Vitamin C is essential for collagen synthesis Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "collagen-hyaluronic-acid",
+    "supplements": [
+      "collagen",
+      "hyaluronic-acid"
+    ],
+    "title": "Can You Take Collagen and Hyaluronic Acid Together?",
+    "metaDescription": "Learn whether Collagen and Hyaluronic Acid can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support skin hydration and joint health.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "collagen",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "hyaluronic-acid",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "skin",
+      "joints",
+      "hair",
+      "gut-health",
+      "hydration"
+    ],
+    "intro": "Collagen and Hyaluronic Acid are a powerful combination. Both support skin hydration and joint health Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "creatine-whey-protein",
+    "supplements": [
+      "creatine",
+      "whey-protein"
+    ],
+    "title": "Can You Take Creatine and Whey Protein Together?",
+    "metaDescription": "Learn whether Creatine and Whey Protein can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Common post-workout stack for muscle protein synthesis.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the any with food.",
+      "suppA": {
+        "name": "creatine",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "whey-protein",
+        "best": "any",
+        "withFood": false,
+        "note": "Best taken in the any. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "muscle",
+      "strength",
+      "brain",
+      "recovery",
+      "protein-intake"
+    ],
+    "intro": "Creatine and Whey Protein are a powerful combination. Common post-workout stack for muscle protein synthesis Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "black-pepper-extract-curcumin",
+    "supplements": [
+      "black-pepper-extract",
+      "curcumin"
+    ],
+    "title": "Can You Take Black Pepper Extract and Curcumin Together?",
+    "metaDescription": "Learn whether Black Pepper Extract and Curcumin can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Piperine increases curcumin bioavailability by 2000%.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the any, the other in the morning.",
+      "suppA": {
+        "name": "black-pepper-extract",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "curcumin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "bioavailability",
+      "digestion",
+      "anti-inflammatory",
+      "joints",
+      "antioxidant"
+    ],
+    "intro": "Black Pepper Extract and Curcumin are a powerful combination. Piperine increases curcumin bioavailability by 2000% Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "curcumin-iron",
+    "supplements": [
+      "curcumin",
+      "iron"
+    ],
+    "title": "Can You Take Curcumin and Iron Together?",
+    "metaDescription": "Learn whether Curcumin and Iron can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Curcumin can chelate iron -- space apart if iron-deficient.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "curcumin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "iron",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "anti-inflammatory",
+      "joints",
+      "antioxidant",
+      "brain",
+      "energy"
+    ],
+    "intro": "Curcumin and Iron can interact when taken together. Curcumin can chelate iron -- space apart if iron-deficient Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "black-pepper-extract-coq10",
+    "supplements": [
+      "black-pepper-extract",
+      "coq10"
+    ],
+    "title": "Can You Take Black Pepper Extract and COQ10 Together?",
+    "metaDescription": "Learn whether Black Pepper Extract and COQ10 can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Piperine may improve CoQ10 absorption.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the any, the other in the morning.",
+      "suppA": {
+        "name": "black-pepper-extract",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "coq10",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "bioavailability",
+      "digestion",
+      "energy",
+      "cardiovascular",
+      "mitochondria"
+    ],
+    "intro": "Black Pepper Extract and COQ10 are a powerful combination. Piperine may improve CoQ10 absorption Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "berberine-milk-thistle",
+    "supplements": [
+      "berberine",
+      "milk-thistle"
+    ],
+    "title": "Can You Take Berberine and Milk Thistle Together?",
+    "metaDescription": "Learn whether Berberine and Milk Thistle can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support liver and metabolic health.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "berberine",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "milk-thistle",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "blood-sugar",
+      "insulin-sensitivity",
+      "gut-health",
+      "longevity",
+      "liver"
+    ],
+    "intro": "Berberine and Milk Thistle are a powerful combination. Both support liver and metabolic health Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "quercetin-vitamin-c",
+    "supplements": [
+      "quercetin",
+      "vitamin-c"
+    ],
+    "title": "Can You Take Quercetin and Vitamin C Together?",
+    "metaDescription": "Learn whether Quercetin and Vitamin C can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support immune function and are anti-inflammatory.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "quercetin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "immunity",
+      "anti-inflammatory",
+      "allergy",
+      "senolytic",
+      "antioxidant"
+    ],
+    "intro": "Quercetin and Vitamin C are a powerful combination. Both support immune function and are anti-inflammatory Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "green-tea-extract-quercetin",
+    "supplements": [
+      "green-tea-extract",
+      "quercetin"
+    ],
+    "title": "Can You Take Green Tea Extract and Quercetin Together?",
+    "metaDescription": "Learn whether Green Tea Extract and Quercetin can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both are polyphenols with complementary antioxidant effects.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "green-tea-extract",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "quercetin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "fat-loss",
+      "antioxidant",
+      "metabolism",
+      "brain",
+      "immunity"
+    ],
+    "intro": "Green Tea Extract and Quercetin are a powerful combination. Both are polyphenols with complementary antioxidant effects Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "caffeine-green-tea-extract",
+    "supplements": [
+      "caffeine",
+      "green-tea-extract"
+    ],
+    "title": "Can You Take Caffeine and Green Tea Extract Together?",
+    "metaDescription": "Learn whether Caffeine and Green Tea Extract can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Contains caffeine -- synergistic for fat oxidation.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "green-tea-extract",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance",
+      "antioxidant"
+    ],
+    "intro": "Caffeine and Green Tea Extract are a powerful combination. Contains caffeine -- synergistic for fat oxidation Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "milk-thistle-nac",
+    "supplements": [
+      "milk-thistle",
+      "nac"
+    ],
+    "title": "Can You Take Milk Thistle and NAC Together?",
+    "metaDescription": "Learn whether Milk Thistle and NAC can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support liver detox pathways.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "milk-thistle",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "nac",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "liver",
+      "detox",
+      "antioxidant",
+      "respiratory",
+      "longevity"
+    ],
+    "intro": "Milk Thistle and NAC are a powerful combination. Both support liver detox pathways Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "saw-palmetto-stinging-nettle",
+    "supplements": [
+      "saw-palmetto",
+      "stinging-nettle"
+    ],
+    "title": "Can You Take Saw Palmetto and Stinging Nettle Together?",
+    "metaDescription": "Learn whether Saw Palmetto and Stinging Nettle can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support prostate health -- commonly stacked.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "saw-palmetto",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "stinging-nettle",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "prostate",
+      "hair-loss",
+      "hormones",
+      "allergy",
+      "inflammation"
+    ],
+    "intro": "Saw Palmetto and Stinging Nettle are a powerful combination. Both support prostate health -- commonly stacked Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "ashwagandha-tongkat-ali",
+    "supplements": [
+      "ashwagandha",
+      "tongkat-ali"
+    ],
+    "title": "Can You Take Ashwagandha and Tongkat Ali Together?",
+    "metaDescription": "Learn whether Ashwagandha and Tongkat Ali can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support testosterone -- tongkat boosts free T, ashwagandha lowers cortisol.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the morning.",
+      "suppA": {
+        "name": "ashwagandha",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "tongkat-ali",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "stress",
+      "sleep",
+      "testosterone",
+      "recovery",
+      "anxiety"
+    ],
+    "intro": "Ashwagandha and Tongkat Ali are a powerful combination. Both support testosterone -- tongkat boosts free T, ashwagandha lowers cortisol Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "fadogia-agrestis-tongkat-ali",
+    "supplements": [
+      "fadogia-agrestis",
+      "tongkat-ali"
+    ],
+    "title": "Can You Take Fadogia Agrestis and Tongkat Ali Together?",
+    "metaDescription": "Learn whether Fadogia Agrestis and Tongkat Ali can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Commonly stacked for testosterone support.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "fadogia-agrestis",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "tongkat-ali",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "testosterone",
+      "libido",
+      "energy",
+      "stress"
+    ],
+    "intro": "Fadogia Agrestis and Tongkat Ali are a powerful combination. Commonly stacked for testosterone support Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "magnesium-valerian",
+    "supplements": [
+      "magnesium",
+      "valerian"
+    ],
+    "title": "Can You Take Magnesium and Valerian Together?",
+    "metaDescription": "Learn whether Magnesium and Valerian can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both promote GABA-mediated relaxation and sleep.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the evening with food.",
+      "suppA": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "valerian",
+        "best": "evening",
+        "withFood": false,
+        "note": "Best taken in the evening. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "sleep",
+      "recovery",
+      "stress",
+      "muscle-cramps",
+      "anxiety"
+    ],
+    "intro": "Magnesium and Valerian are a powerful combination. Both promote GABA-mediated relaxation and sleep Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "melatonin-valerian",
+    "supplements": [
+      "melatonin",
+      "valerian"
+    ],
+    "title": "Can You Take Melatonin and Valerian Together?",
+    "metaDescription": "Learn whether Melatonin and Valerian can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both promote sleep -- valerian improves onset, melatonin regulates rhythm.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the evening.",
+      "suppA": {
+        "name": "melatonin",
+        "best": "evening",
+        "withFood": false,
+        "note": "Best taken in the evening. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "valerian",
+        "best": "evening",
+        "withFood": false,
+        "note": "Best taken in the evening. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "sleep",
+      "circadian-rhythm",
+      "antioxidant",
+      "anxiety",
+      "relaxation"
+    ],
+    "intro": "Melatonin and Valerian are a powerful combination. Both promote sleep -- valerian improves onset, melatonin regulates rhythm Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "ginkgo-biloba-omega-3",
+    "supplements": [
+      "ginkgo-biloba",
+      "omega-3"
+    ],
+    "title": "Can You Take Ginkgo Biloba and Omega 3 Together?",
+    "metaDescription": "Learn whether Ginkgo Biloba and Omega 3 can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support brain blood flow and cognition.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "ginkgo-biloba",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "omega-3",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "brain",
+      "memory",
+      "blood-flow",
+      "focus",
+      "cardiovascular"
+    ],
+    "intro": "Ginkgo Biloba and Omega 3 are a powerful combination. Both support brain blood flow and cognition Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "bacopa-lions-mane",
+    "supplements": [
+      "bacopa",
+      "lions-mane"
+    ],
+    "title": "Can You Take Bacopa and Lions Mane Together?",
+    "metaDescription": "Learn whether Bacopa and Lions Mane can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support memory and neuroplasticity -- different mechanisms.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "bacopa",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "lions-mane",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "memory",
+      "focus",
+      "anxiety",
+      "brain",
+      "neuroplasticity"
+    ],
+    "intro": "Bacopa and Lions Mane are a powerful combination. Both support memory and neuroplasticity -- different mechanisms Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "caffeine-iron",
+    "supplements": [
+      "caffeine",
+      "iron"
+    ],
+    "title": "Can You Take Caffeine and Iron Together?",
+    "metaDescription": "Learn whether Caffeine and Iron can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Caffeine inhibits iron absorption -- space 1hr apart.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "iron",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance",
+      "anemia"
+    ],
+    "intro": "Caffeine and Iron can interact when taken together. Caffeine inhibits iron absorption -- space 1hr apart Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "caffeine-melatonin",
+    "supplements": [
+      "caffeine",
+      "melatonin"
+    ],
+    "title": "Can You Take Caffeine and Melatonin Together?",
+    "metaDescription": "Learn whether Caffeine and Melatonin can be taken together. Interaction type: competition. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Caffeine blocks melatonin production -- avoid caffeine after 2pm.",
+      "details": "These two can interfere with each other's absorption when taken at the same time. The solution is simple: space them apart by at least 2 hours to get the full benefit of both."
+    },
+    "timing": {
+      "recommendation": "Space them apart -- take one in the morning and the other in the evening for best absorption.",
+      "suppA": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "melatonin",
+        "best": "evening",
+        "withFood": false,
+        "note": "Best taken in the evening. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "focus",
+      "fat-loss",
+      "performance",
+      "sleep"
+    ],
+    "intro": "Caffeine and Melatonin can interact when taken together. Caffeine blocks melatonin production -- avoid caffeine after 2pm Here's how to stack them properly so you get the full benefits of both."
+  },
+  {
+    "slug": "dhea-pregnenolone",
+    "supplements": [
+      "dhea",
+      "pregnenolone"
+    ],
+    "title": "Can You Take Dhea and Pregnenolone Together?",
+    "metaDescription": "Learn whether Dhea and Pregnenolone can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Pregnenolone is upstream of DHEA -- both support hormone cascade.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "dhea",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "pregnenolone",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "hormones",
+      "anti-aging",
+      "mood",
+      "brain",
+      "memory"
+    ],
+    "intro": "Dhea and Pregnenolone are a powerful combination. Pregnenolone is upstream of DHEA -- both support hormone cascade Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "coq10-omega-3",
+    "supplements": [
+      "coq10",
+      "omega-3"
+    ],
+    "title": "Can You Take COQ10 and Omega 3 Together?",
+    "metaDescription": "Learn whether COQ10 and Omega 3 can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Fat improves CoQ10 absorption.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "coq10",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "omega-3",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "energy",
+      "cardiovascular",
+      "mitochondria",
+      "anti-aging",
+      "brain"
+    ],
+    "intro": "COQ10 and Omega 3 are a powerful combination. Fat improves CoQ10 absorption Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "coq10-pqq",
+    "supplements": [
+      "coq10",
+      "pqq"
+    ],
+    "title": "Can You Take COQ10 and PQQ Together?",
+    "metaDescription": "Learn whether COQ10 and PQQ can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "CoQ10 supports existing mitochondria, PQQ stimulates new ones.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "coq10",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "pqq",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "cardiovascular",
+      "mitochondria",
+      "anti-aging",
+      "brain"
+    ],
+    "intro": "COQ10 and PQQ are a powerful combination. CoQ10 supports existing mitochondria, PQQ stimulates new ones Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "alpha-lipoic-acid-nac",
+    "supplements": [
+      "alpha-lipoic-acid",
+      "nac"
+    ],
+    "title": "Can You Take Alpha Lipoic Acid and NAC Together?",
+    "metaDescription": "Learn whether Alpha Lipoic Acid and NAC can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both recycle glutathione -- complementary antioxidant support.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "alpha-lipoic-acid",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "nac",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "blood-sugar",
+      "antioxidant",
+      "neuropathy",
+      "detox",
+      "liver"
+    ],
+    "intro": "Alpha Lipoic Acid and NAC are a powerful combination. Both recycle glutathione -- complementary antioxidant support Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "quercetin-resveratrol",
+    "supplements": [
+      "quercetin",
+      "resveratrol"
+    ],
+    "title": "Can You Take Quercetin and Resveratrol Together?",
+    "metaDescription": "Learn whether Quercetin and Resveratrol can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Quercetin inhibits resveratrol metabolism -- increases bioavailability.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "quercetin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "resveratrol",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "immunity",
+      "anti-inflammatory",
+      "allergy",
+      "senolytic",
+      "longevity"
+    ],
+    "intro": "Quercetin and Resveratrol are a powerful combination. Quercetin inhibits resveratrol metabolism -- increases bioavailability Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "curcumin-resveratrol",
+    "supplements": [
+      "curcumin",
+      "resveratrol"
+    ],
+    "title": "Can You Take Curcumin and Resveratrol Together?",
+    "metaDescription": "Learn whether Curcumin and Resveratrol can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both activate AMPK and sirtuin pathways.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "curcumin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "resveratrol",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "anti-inflammatory",
+      "joints",
+      "antioxidant",
+      "brain",
+      "longevity"
+    ],
+    "intro": "Curcumin and Resveratrol are a powerful combination. Both activate AMPK and sirtuin pathways Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "nmn-resveratrol",
+    "supplements": [
+      "nmn",
+      "resveratrol"
+    ],
+    "title": "Can You Take NMN and Resveratrol Together?",
+    "metaDescription": "Learn whether NMN and Resveratrol can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "NMN provides NAD+ substrate, resveratrol activates sirtuins that use NAD+.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "nmn",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "resveratrol",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "longevity",
+      "energy",
+      "anti-aging",
+      "mitochondria",
+      "cardiovascular"
+    ],
+    "intro": "NMN and Resveratrol are a powerful combination. NMN provides NAD+ substrate, resveratrol activates sirtuins that use NAD+ Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "astaxanthin-vitamin-e",
+    "supplements": [
+      "astaxanthin",
+      "vitamin-e"
+    ],
+    "title": "Can You Take Astaxanthin and Vitamin E Together?",
+    "metaDescription": "Learn whether Astaxanthin and Vitamin E can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both are fat-soluble antioxidants -- complementary.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "astaxanthin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-e",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "antioxidant",
+      "skin",
+      "eye-health",
+      "endurance",
+      "cardiovascular"
+    ],
+    "intro": "Astaxanthin and Vitamin E are a powerful combination. Both are fat-soluble antioxidants -- complementary Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "glutathione-nac",
+    "supplements": [
+      "glutathione",
+      "nac"
+    ],
+    "title": "Can You Take Glutathione and NAC Together?",
+    "metaDescription": "Learn whether Glutathione and NAC can be taken together. Interaction type: redundancy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "redundancy",
+      "summary": "NAC is a glutathione precursor -- taking both may be redundant.",
+      "details": "There is no significant positive or negative interaction between these two. They can be taken together safely without concern for interference."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "glutathione",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "nac",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "detox",
+      "antioxidant",
+      "skin",
+      "immunity",
+      "liver"
+    ],
+    "intro": "Glutathione and NAC are commonly stacked together. NAC is a glutathione precursor -- taking both may be redundant Here's the full breakdown of how they interact and the best way to take them."
+  },
+  {
+    "slug": "glutathione-vitamin-c",
+    "supplements": [
+      "glutathione",
+      "vitamin-c"
+    ],
+    "title": "Can You Take Glutathione and Vitamin C Together?",
+    "metaDescription": "Learn whether Glutathione and Vitamin C can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Vitamin C helps recycle glutathione.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "glutathione",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "detox",
+      "antioxidant",
+      "skin",
+      "immunity",
+      "iron-absorption"
+    ],
+    "intro": "Glutathione and Vitamin C are a powerful combination. Vitamin C helps recycle glutathione Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "nmn-tmg",
+    "supplements": [
+      "nmn",
+      "tmg"
+    ],
+    "title": "Can You Take NMN and Tmg Together?",
+    "metaDescription": "Learn whether NMN and Tmg can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "NMN metabolism consumes methyl groups -- TMG replenishes them.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "nmn",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "tmg",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "longevity",
+      "energy",
+      "anti-aging",
+      "mitochondria",
+      "methylation"
+    ],
+    "intro": "NMN and Tmg are a powerful combination. NMN metabolism consumes methyl groups -- TMG replenishes them Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "nmn-nr",
+    "supplements": [
+      "nmn",
+      "nr"
+    ],
+    "title": "Can You Take NMN and Nr Together?",
+    "metaDescription": "Learn whether NMN and Nr can be taken together. Interaction type: redundancy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "redundancy",
+      "summary": "Both raise NAD+ -- typically pick one, not both.",
+      "details": "There is no significant positive or negative interaction between these two. They can be taken together safely without concern for interference."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "nmn",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "nr",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "longevity",
+      "energy",
+      "anti-aging",
+      "mitochondria"
+    ],
+    "intro": "NMN and Nr are commonly stacked together. Both raise NAD+ -- typically pick one, not both Here's the full breakdown of how they interact and the best way to take them."
+  },
+  {
+    "slug": "nr-tmg",
+    "supplements": [
+      "nr",
+      "tmg"
+    ],
+    "title": "Can You Take Nr and Tmg Together?",
+    "metaDescription": "Learn whether Nr and Tmg can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "NR metabolism may consume methyl groups -- TMG replenishes them.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "nr",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "tmg",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "longevity",
+      "energy",
+      "anti-aging",
+      "mitochondria",
+      "methylation"
+    ],
+    "intro": "Nr and Tmg are a powerful combination. NR metabolism may consume methyl groups -- TMG replenishes them Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "sam-e-tmg",
+    "supplements": [
+      "sam-e",
+      "tmg"
+    ],
+    "title": "Can You Take Sam E and Tmg Together?",
+    "metaDescription": "Learn whether Sam E and Tmg can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "TMG supports SAM-e production via methylation.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "sam-e",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "tmg",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "mood",
+      "joints",
+      "liver",
+      "methylation",
+      "longevity"
+    ],
+    "intro": "Sam E and Tmg are a powerful combination. TMG supports SAM-e production via methylation Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "fisetin-quercetin",
+    "supplements": [
+      "fisetin",
+      "quercetin"
+    ],
+    "title": "Can You Take Fisetin and Quercetin Together?",
+    "metaDescription": "Learn whether Fisetin and Quercetin can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both are senolytics -- often used together in senolytic protocols.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "fisetin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "quercetin",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "longevity",
+      "senolytic",
+      "anti-inflammatory",
+      "brain",
+      "immunity"
+    ],
+    "intro": "Fisetin and Quercetin are a powerful combination. Both are senolytics -- often used together in senolytic protocols Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "b12-sam-e",
+    "supplements": [
+      "b12",
+      "sam-e"
+    ],
+    "title": "Can You Take B12 and Sam E Together?",
+    "metaDescription": "Learn whether B12 and Sam E can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "B12 is required for SAM-e recycling in the methylation cycle.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "b12",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "sam-e",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "energy",
+      "nervous-system",
+      "methylation",
+      "mood",
+      "joints"
+    ],
+    "intro": "B12 and Sam E are a powerful combination. B12 is required for SAM-e recycling in the methylation cycle Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "folate-sam-e",
+    "supplements": [
+      "folate",
+      "sam-e"
+    ],
+    "title": "Can You Take Folate and Sam E Together?",
+    "metaDescription": "Learn whether Folate and Sam E can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Folate supports SAM-e regeneration.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "folate",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "sam-e",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "methylation",
+      "mood",
+      "prenatal",
+      "cardiovascular",
+      "joints"
+    ],
+    "intro": "Folate and Sam E are a powerful combination. Folate supports SAM-e regeneration Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "prebiotics-probiotics",
+    "supplements": [
+      "prebiotics",
+      "probiotics"
+    ],
+    "title": "Can You Take Prebiotics and Probiotics Together?",
+    "metaDescription": "Learn whether Prebiotics and Probiotics can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Prebiotics feed probiotic bacteria -- take together.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "prebiotics",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "probiotics",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "gut-health",
+      "digestion",
+      "microbiome",
+      "immunity",
+      "mood"
+    ],
+    "intro": "Prebiotics and Probiotics are a powerful combination. Prebiotics feed probiotic bacteria -- take together Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "electrolytes-magnesium",
+    "supplements": [
+      "electrolytes",
+      "magnesium"
+    ],
+    "title": "Can You Take Electrolytes and Magnesium Together?",
+    "metaDescription": "Learn whether Electrolytes and Magnesium can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Magnesium is a key electrolyte -- often included.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the evening.",
+      "suppA": {
+        "name": "electrolytes",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "hydration",
+      "energy",
+      "exercise",
+      "fasting",
+      "sleep"
+    ],
+    "intro": "Electrolytes and Magnesium are a powerful combination. Magnesium is a key electrolyte -- often included Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "electrolytes-potassium",
+    "supplements": [
+      "electrolytes",
+      "potassium"
+    ],
+    "title": "Can You Take Electrolytes and Potassium Together?",
+    "metaDescription": "Learn whether Electrolytes and Potassium can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Sodium and potassium balance each other.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the any.",
+      "suppA": {
+        "name": "electrolytes",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "potassium",
+        "best": "any",
+        "withFood": true,
+        "note": "Best taken in the any. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "hydration",
+      "energy",
+      "exercise",
+      "fasting",
+      "electrolytes"
+    ],
+    "intro": "Electrolytes and Potassium are a powerful combination. Sodium and potassium balance each other Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "magnesium-vitamin-b6",
+    "supplements": [
+      "magnesium",
+      "vitamin-b6"
+    ],
+    "title": "Can You Take Magnesium and Vitamin B6 Together?",
+    "metaDescription": "Learn whether Magnesium and Vitamin B6 can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "B6 increases cellular magnesium absorption.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the evening, the other in the morning.",
+      "suppA": {
+        "name": "magnesium",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-b6",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "sleep",
+      "recovery",
+      "stress",
+      "muscle-cramps",
+      "mood"
+    ],
+    "intro": "Magnesium and Vitamin B6 are a powerful combination. B6 increases cellular magnesium absorption Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "vitamin-b6-zinc",
+    "supplements": [
+      "vitamin-b6",
+      "zinc"
+    ],
+    "title": "Can You Take Vitamin B6 and Zinc Together?",
+    "metaDescription": "Learn whether Vitamin B6 and Zinc can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "B6 and zinc together support neurotransmitter production.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the evening.",
+      "suppA": {
+        "name": "vitamin-b6",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "zinc",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "mood",
+      "nervous-system",
+      "hormones",
+      "sleep",
+      "immunity"
+    ],
+    "intro": "Vitamin B6 and Zinc are a powerful combination. B6 and zinc together support neurotransmitter production Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "hyaluronic-acid-vitamin-c",
+    "supplements": [
+      "hyaluronic-acid",
+      "vitamin-c"
+    ],
+    "title": "Can You Take Hyaluronic Acid and Vitamin C Together?",
+    "metaDescription": "Learn whether Hyaluronic Acid and Vitamin C can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Vitamin C supports HA production in the body.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with food.",
+      "suppA": {
+        "name": "hyaluronic-acid",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "vitamin-c",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "skin",
+      "joints",
+      "hydration",
+      "anti-aging",
+      "immunity"
+    ],
+    "intro": "Hyaluronic Acid and Vitamin C are a powerful combination. Vitamin C supports HA production in the body Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "omega-3-phosphatidylserine",
+    "supplements": [
+      "omega-3",
+      "phosphatidylserine"
+    ],
+    "title": "Can You Take Omega 3 and Phosphatidylserine Together?",
+    "metaDescription": "Learn whether Omega 3 and Phosphatidylserine can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "DHA is a building block of PS -- both support brain cell membranes.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the evening.",
+      "suppA": {
+        "name": "omega-3",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "phosphatidylserine",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "cardiovascular",
+      "brain",
+      "anti-inflammatory",
+      "mood",
+      "memory"
+    ],
+    "intro": "Omega 3 and Phosphatidylserine are a powerful combination. DHA is a building block of PS -- both support brain cell membranes Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "ginkgo-biloba-phosphatidylserine",
+    "supplements": [
+      "ginkgo-biloba",
+      "phosphatidylserine"
+    ],
+    "title": "Can You Take Ginkgo Biloba and Phosphatidylserine Together?",
+    "metaDescription": "Learn whether Ginkgo Biloba and Phosphatidylserine can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support memory and cognitive function.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take them at their optimal times -- one in the morning, the other in the evening.",
+      "suppA": {
+        "name": "ginkgo-biloba",
+        "best": "morning",
+        "withFood": true,
+        "note": "Best taken in the morning. Take with food for better absorption."
+      },
+      "suppB": {
+        "name": "phosphatidylserine",
+        "best": "evening",
+        "withFood": true,
+        "note": "Best taken in the evening. Take with food for better absorption."
+      }
+    },
+    "goals": [
+      "brain",
+      "memory",
+      "blood-flow",
+      "focus",
+      "cortisol"
+    ],
+    "intro": "Ginkgo Biloba and Phosphatidylserine are a powerful combination. Both support memory and cognitive function Here's what you need to know about taking them together safely and effectively."
+  },
+  {
+    "slug": "alpha-gpc-cdp-choline",
+    "supplements": [
+      "alpha-gpc",
+      "cdp-choline"
+    ],
+    "title": "Can You Take Alpha Gpc and Cdp Choline Together?",
+    "metaDescription": "Learn whether Alpha Gpc and Cdp Choline can be taken together. Interaction type: redundancy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "redundancy",
+      "summary": "Both raise choline/acetylcholine -- typically pick one.",
+      "details": "There is no significant positive or negative interaction between these two. They can be taken together safely without concern for interference."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "alpha-gpc",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "cdp-choline",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "focus",
+      "memory",
+      "power-output",
+      "brain",
+      "neuroprotection"
+    ],
+    "intro": "Alpha Gpc and Cdp Choline are commonly stacked together. Both raise choline/acetylcholine -- typically pick one Here's the full breakdown of how they interact and the best way to take them."
+  },
+  {
+    "slug": "alpha-gpc-caffeine",
+    "supplements": [
+      "alpha-gpc",
+      "caffeine"
+    ],
+    "title": "Can You Take Alpha Gpc and Caffeine Together?",
+    "metaDescription": "Learn whether Alpha Gpc and Caffeine can be taken together. Interaction type: synergy. Get timing tips, safety info, and stacking advice.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Both support focus and physical output.",
+      "details": "This is a beneficial pairing where the two supplements enhance each other's effects. Many biohackers and health-conscious individuals combine these for amplified results."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning.",
+      "suppA": {
+        "name": "alpha-gpc",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      },
+      "suppB": {
+        "name": "caffeine",
+        "best": "morning",
+        "withFood": false,
+        "note": "Best taken in the morning. Can be taken on an empty stomach."
+      }
+    },
+    "goals": [
+      "focus",
+      "memory",
+      "power-output",
+      "brain",
+      "energy"
+    ],
+    "intro": "Alpha Gpc and Caffeine are a powerful combination. Both support focus and physical output Here's what you need to know about taking them together safely and effectively."
   }
 ]

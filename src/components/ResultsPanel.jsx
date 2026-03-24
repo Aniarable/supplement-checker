@@ -24,7 +24,7 @@ export default function ResultsPanel({ results }) {
               <li key={i} className={"interaction-" + item.type}>
                 <span className={"badge badge-" + item.type}>
                   {item.type === "competition" ? "Conflict" : "Synergy"}
-                </span>
+                </span>{" "}
                 <strong>{item.pair[0]}</strong> + <strong>{item.pair[1]}</strong>
                 <span className="interaction-note"> -- {item.note}</span>
               </li>

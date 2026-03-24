@@ -10,28 +10,33 @@ export default function Home() {
   const results = checkStack(stack, supplements);
 
   return (
-    <main className="home">
-      <h1>Supplement Checker</h1>
-      <p>Enter your supplements to check for interactions, timing, and gaps.</p>
+    <div className="home-layout">
+      <aside className="ad-sidebar ad-sidebar-left">
+        <div className="ad-slot ad-slot-vertical" data-ad-slot="home-left" />
+      </aside>
 
-      <StackInput stack={stack} setStack={setStack} />
+      <main className="home">
+        <div className="home-hero">
+          <h1>Supplement Checker</h1>
+          <p className="home-subtitle">Enter your supplements to check for interactions, timing, and gaps.</p>
+          <StackInput stack={stack} setStack={setStack} />
+        </div>
 
-      {/* AdSense placeholder */}
-      <div className="ad-slot" data-ad-slot="home-mid" />
+        <ResultsPanel results={results} />
 
-      <ResultsPanel results={results} />
+        <footer className="disclaimer-footer">
+          <p>
+            This tool is for <strong>educational purposes only</strong> and does not
+            constitute medical advice. Always consult a qualified healthcare provider
+            before starting, stopping, or changing any supplement regimen.
+          </p>
+          <p><Link to="/terms">Terms of Use & Disclaimer</Link> | <Link to="/privacy">Privacy Policy</Link></p>
+        </footer>
+      </main>
 
-      {/* AdSense placeholder */}
-      <div className="ad-slot" data-ad-slot="home-bottom" />
-
-      <footer className="disclaimer-footer">
-        <p>
-          This tool is for <strong>educational purposes only</strong> and does not
-          constitute medical advice. Always consult a qualified healthcare provider
-          before starting, stopping, or changing any supplement regimen.
-        </p>
-        <p><Link to="/terms">Terms of Use & Disclaimer</Link></p>
-      </footer>
-    </main>
+      <aside className="ad-sidebar ad-sidebar-right">
+        <div className="ad-slot ad-slot-vertical" data-ad-slot="home-right" />
+      </aside>
+    </div>
   );
 }

@@ -1,0 +1,270 @@
+[
+  {
+    "supplement": "magnesium",
+    "aliases": ["mag glycinate", "mag citrate", "mag threonate", "mag oxide"],
+    "category": "mineral",
+    "timing": { "best": "evening", "with_food": true },
+    "goals": ["sleep", "recovery", "stress"],
+    "interactions": [
+      { "with": "zinc", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
+      { "with": "calcium", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
+      { "with": "vitamin-d", "type": "synergy", "note": "D3 increases magnesium utilization" },
+      { "with": "melatonin", "type": "synergy", "note": "Magnesium supports melatonin production" }
+    ],
+    "commonly_with": [
+      { "supplement": "vitamin-d", "reason": "Magnesium is needed to convert D3 to active form" }
+    ]
+  },
+  {
+    "supplement": "zinc",
+    "aliases": ["zinc picolinate", "zinc gluconate", "zinc citrate"],
+    "category": "mineral",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["immune", "recovery", "testosterone"],
+    "interactions": [
+      { "with": "magnesium", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
+      { "with": "calcium", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
+      { "with": "iron", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
+      { "with": "copper", "type": "competition", "note": "High-dose zinc depletes copper over time" }
+    ],
+    "commonly_with": [
+      { "supplement": "copper", "reason": "Long-term zinc supplementation can deplete copper" }
+    ]
+  },
+  {
+    "supplement": "vitamin-d",
+    "aliases": ["vitamin d3", "d3", "cholecalciferol"],
+    "category": "vitamin",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["bone health", "immune", "mood"],
+    "interactions": [
+      { "with": "magnesium", "type": "synergy", "note": "Magnesium needed to convert D3 to active form" },
+      { "with": "vitamin-k2", "type": "synergy", "note": "K2 directs D3-absorbed calcium to bones, not arteries" },
+      { "with": "calcium", "type": "synergy", "note": "D3 enhances calcium absorption" },
+      { "with": "vitamin-a", "type": "competition", "note": "High-dose A and D compete for the same receptor" }
+    ],
+    "commonly_with": [
+      { "supplement": "vitamin-k2", "reason": "K2 directs calcium to bones instead of arteries" },
+      { "supplement": "magnesium", "reason": "Required for D3 activation" }
+    ]
+  },
+  {
+    "supplement": "vitamin-k2",
+    "aliases": ["k2", "mk-7", "mk-4", "menaquinone"],
+    "category": "vitamin",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["bone health", "heart health"],
+    "interactions": [
+      { "with": "vitamin-d", "type": "synergy", "note": "K2 directs D3-absorbed calcium to bones, not arteries" },
+      { "with": "calcium", "type": "synergy", "note": "K2 ensures calcium deposits in bones, not soft tissue" }
+    ],
+    "commonly_with": [
+      { "supplement": "vitamin-d", "reason": "K2 and D3 work together for calcium metabolism" }
+    ]
+  },
+  {
+    "supplement": "calcium",
+    "aliases": ["calcium citrate", "calcium carbonate"],
+    "category": "mineral",
+    "timing": { "best": "evening", "with_food": true },
+    "goals": ["bone health"],
+    "interactions": [
+      { "with": "magnesium", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
+      { "with": "zinc", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
+      { "with": "iron", "type": "competition", "note": "Calcium blocks iron absorption -- space 2hr apart" },
+      { "with": "vitamin-d", "type": "synergy", "note": "D3 enhances calcium absorption" },
+      { "with": "vitamin-k2", "type": "synergy", "note": "K2 ensures calcium deposits in bones, not soft tissue" }
+    ],
+    "commonly_with": [
+      { "supplement": "vitamin-d", "reason": "D3 is needed for calcium absorption" },
+      { "supplement": "vitamin-k2", "reason": "K2 directs calcium to bones" }
+    ]
+  },
+  {
+    "supplement": "iron",
+    "aliases": ["ferrous bisglycinate", "ferrous sulfate", "iron bisglycinate"],
+    "category": "mineral",
+    "timing": { "best": "morning", "with_food": false },
+    "goals": ["energy", "blood health"],
+    "interactions": [
+      { "with": "zinc", "type": "competition", "note": "Compete for absorption -- space 2hr apart" },
+      { "with": "calcium", "type": "competition", "note": "Calcium blocks iron absorption -- space 2hr apart" },
+      { "with": "vitamin-c", "type": "synergy", "note": "Vitamin C dramatically enhances iron absorption" },
+      { "with": "caffeine", "type": "competition", "note": "Caffeine and tannins reduce iron absorption -- space 1hr apart" }
+    ],
+    "commonly_with": [
+      { "supplement": "vitamin-c", "reason": "Vitamin C enhances non-heme iron absorption by up to 6x" }
+    ]
+  },
+  {
+    "supplement": "vitamin-c",
+    "aliases": ["ascorbic acid", "sodium ascorbate"],
+    "category": "vitamin",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["immune", "antioxidant", "skin"],
+    "interactions": [
+      { "with": "iron", "type": "synergy", "note": "Vitamin C dramatically enhances iron absorption" },
+      { "with": "vitamin-e", "type": "synergy", "note": "Vitamin C regenerates oxidized vitamin E" }
+    ],
+    "commonly_with": []
+  },
+  {
+    "supplement": "omega-3",
+    "aliases": ["fish oil", "epa", "dha", "krill oil"],
+    "category": "fatty acid",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["heart health", "inflammation", "brain"],
+    "interactions": [
+      { "with": "vitamin-d", "type": "synergy", "note": "Fat in omega-3 improves D3 absorption" },
+      { "with": "coq10", "type": "synergy", "note": "Both support cardiovascular health" }
+    ],
+    "commonly_with": [
+      { "supplement": "vitamin-d", "reason": "Fat-soluble D3 absorbs better with omega-3 fats" }
+    ]
+  },
+  {
+    "supplement": "ashwagandha",
+    "aliases": ["ksm-66", "sensoril", "withania somnifera"],
+    "category": "adaptogen",
+    "timing": { "best": "evening", "with_food": false },
+    "goals": ["stress", "sleep", "testosterone"],
+    "interactions": [
+      { "with": "rhodiola", "type": "synergy", "note": "Both adaptogens -- can stack but watch for over-sedation" }
+    ],
+    "commonly_with": [
+      { "supplement": "magnesium", "reason": "Both support relaxation and sleep quality" }
+    ]
+  },
+  {
+    "supplement": "rhodiola",
+    "aliases": ["rhodiola rosea"],
+    "category": "adaptogen",
+    "timing": { "best": "morning", "with_food": false },
+    "goals": ["stress", "energy", "focus"],
+    "interactions": [
+      { "with": "ashwagandha", "type": "synergy", "note": "Both adaptogens -- can stack but watch for over-sedation" },
+      { "with": "caffeine", "type": "synergy", "note": "Rhodiola smooths out caffeine energy" }
+    ],
+    "commonly_with": []
+  },
+  {
+    "supplement": "l-theanine",
+    "aliases": ["theanine"],
+    "category": "amino acid",
+    "timing": { "best": "morning", "with_food": false },
+    "goals": ["focus", "stress", "sleep"],
+    "interactions": [
+      { "with": "caffeine", "type": "synergy", "note": "L-theanine smooths caffeine jitters, improves focus" }
+    ],
+    "commonly_with": [
+      { "supplement": "caffeine", "reason": "Classic nootropic stack -- theanine takes the edge off caffeine" }
+    ]
+  },
+  {
+    "supplement": "caffeine",
+    "aliases": ["coffee extract"],
+    "category": "stimulant",
+    "timing": { "best": "morning", "with_food": false },
+    "goals": ["energy", "focus"],
+    "interactions": [
+      { "with": "l-theanine", "type": "synergy", "note": "L-theanine smooths caffeine jitters, improves focus" },
+      { "with": "iron", "type": "competition", "note": "Caffeine and tannins reduce iron absorption -- space 1hr apart" },
+      { "with": "rhodiola", "type": "synergy", "note": "Rhodiola smooths out caffeine energy" }
+    ],
+    "commonly_with": [
+      { "supplement": "l-theanine", "reason": "Theanine removes caffeine jitters while keeping focus" }
+    ]
+  },
+  {
+    "supplement": "b-complex",
+    "aliases": ["b vitamins", "b-50", "b-100"],
+    "category": "vitamin",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["energy", "mood", "brain"],
+    "interactions": [
+      { "with": "iron", "type": "synergy", "note": "B vitamins support iron metabolism and red blood cell formation" }
+    ],
+    "commonly_with": []
+  },
+  {
+    "supplement": "vitamin-a",
+    "aliases": ["retinol", "beta-carotene"],
+    "category": "vitamin",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["immune", "vision", "skin"],
+    "interactions": [
+      { "with": "vitamin-d", "type": "competition", "note": "High-dose A and D compete for the same receptor" }
+    ],
+    "commonly_with": []
+  },
+  {
+    "supplement": "probiotics",
+    "aliases": ["lactobacillus", "bifidobacterium"],
+    "category": "probiotic",
+    "timing": { "best": "morning", "with_food": false },
+    "goals": ["gut health", "immune"],
+    "interactions": [],
+    "commonly_with": []
+  },
+  {
+    "supplement": "turmeric",
+    "aliases": ["curcumin"],
+    "category": "anti-inflammatory",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["inflammation", "joint health"],
+    "interactions": [
+      { "with": "black-pepper-extract", "type": "synergy", "note": "Piperine increases curcumin absorption by 2000%" }
+    ],
+    "commonly_with": [
+      { "supplement": "black-pepper-extract", "reason": "Piperine is essential for curcumin bioavailability" }
+    ]
+  },
+  {
+    "supplement": "black-pepper-extract",
+    "aliases": ["piperine", "bioperine"],
+    "category": "bioavailability",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["bioavailability"],
+    "interactions": [
+      { "with": "turmeric", "type": "synergy", "note": "Piperine increases curcumin absorption by 2000%" }
+    ],
+    "commonly_with": [
+      { "supplement": "turmeric", "reason": "Piperine makes curcumin actually absorbable" }
+    ]
+  },
+  {
+    "supplement": "coq10",
+    "aliases": ["ubiquinol", "ubiquinone", "coenzyme q10"],
+    "category": "antioxidant",
+    "timing": { "best": "morning", "with_food": true },
+    "goals": ["heart health", "energy"],
+    "interactions": [
+      { "with": "omega-3", "type": "synergy", "note": "Both support cardiovascular health" }
+    ],
+    "commonly_with": [
+      { "supplement": "omega-3", "reason": "CoQ10 absorbs better with dietary fat from fish oil" }
+    ]
+  },
+  {
+    "supplement": "melatonin",
+    "aliases": [],
+    "category": "hormone",
+    "timing": { "best": "evening", "with_food": false },
+    "goals": ["sleep"],
+    "interactions": [
+      { "with": "magnesium", "type": "synergy", "note": "Magnesium supports melatonin production" }
+    ],
+    "commonly_with": [
+      { "supplement": "magnesium", "reason": "Magnesium relaxes muscles while melatonin signals sleep" }
+    ]
+  },
+  {
+    "supplement": "creatine",
+    "aliases": ["creatine monohydrate"],
+    "category": "amino acid",
+    "timing": { "best": "any", "with_food": true },
+    "goals": ["recovery", "energy", "brain"],
+    "interactions": [],
+    "commonly_with": []
+  }
+]

@@ -75,7 +75,7 @@ export default function Home() {
             constitute medical advice. Always consult a qualified healthcare provider
             before starting, stopping, or changing any supplement regimen.
           </p>
-          <p><Link to="/terms">Terms of Use & Disclaimer</Link> | <Link to="/privacy">Privacy Policy</Link></p>
+          <p><Link to="/blog">Blog</Link> | <Link to="/terms">Terms of Use & Disclaimer</Link> | <Link to="/privacy">Privacy Policy</Link></p>
         </footer>
       </main>
 

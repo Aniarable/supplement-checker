@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "ashwagandha-magnesium",
+    "supplements": ["ashwagandha", "magnesium"],
+    "title": "Can You Take Ashwagandha and Magnesium Together?",
+    "metaDescription": "Yes, ashwagandha and magnesium are a powerful synergy for sleep, stress relief, and recovery. Learn the best timing, dosage tips, and what to watch out for.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Ashwagandha and magnesium complement each other well. Both reduce cortisol and promote relaxation through different pathways -- ashwagandha via adaptogenic modulation of the HPA axis, magnesium via GABA receptor support and muscle relaxation.",
+      "details": "Taking them together can amplify sleep quality and stress resilience. Magnesium glycinate is the preferred form for this stack due to its calming properties and high bioavailability."
+    },
+    "timing": {
+      "recommendation": "Take both in the evening, 30-60 minutes before bed.",
+      "suppA": { "name": "ashwagandha", "best": "evening", "withFood": true, "note": "Take with a small snack -- fat improves absorption of withanolides." },
+      "suppB": { "name": "magnesium", "best": "evening", "withFood": true, "note": "Mag glycinate is well-tolerated with or without food. Evening dosing supports sleep." }
+    },
+    "goals": ["sleep", "stress", "recovery"],
+    "intro": "Ashwagandha and magnesium is one of the most popular biohacking stacks for a reason. Both target the stress-sleep axis, and together they deliver more than either supplement alone. Here's everything you need to know about combining them safely."
+  },
+  {
+    "slug": "creatine-caffeine",
+    "supplements": ["creatine", "caffeine"],
+    "title": "Can You Take Creatine and Caffeine Together?",
+    "metaDescription": "Creatine and caffeine can be taken together safely. Learn whether caffeine blunts creatine's effects, the best timing strategy, and how to stack them for performance.",
+    "interaction": {
+      "type": "neutral",
+      "summary": "Despite early studies suggesting caffeine might blunt creatine's benefits, more recent research shows no significant interference when taken at typical doses. They work through independent pathways -- creatine replenishes ATP stores while caffeine blocks adenosine receptors.",
+      "details": "The old concern was based on a single 1996 study with methodological issues. Multiple subsequent studies have found no negative interaction. Many pre-workout formulas combine both ingredients."
+    },
+    "timing": {
+      "recommendation": "Take creatine any time daily (consistency matters more than timing). Take caffeine 30-60 minutes before training.",
+      "suppA": { "name": "creatine", "best": "any", "withFood": false, "note": "5g daily, any time. Mix with water. Loading phase optional." },
+      "suppB": { "name": "caffeine", "best": "morning/pre-workout", "withFood": false, "note": "200-400mg pre-workout. Avoid after 2pm to protect sleep." }
+    },
+    "goals": ["performance", "energy", "strength"],
+    "intro": "Creatine and caffeine are two of the most well-researched performance supplements. The question of whether they cancel each other out has been debated for years. Here's what the science actually says."
+  },
+  {
+    "slug": "vitamin-d-k2",
+    "supplements": ["vitamin-d", "k2"],
+    "title": "Can You Take Vitamin D and K2 Together?",
+    "metaDescription": "Vitamin D and K2 are one of the most important supplement synergies. Learn why you should always pair them, the ideal ratio, and the best forms to take.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Vitamin D increases calcium absorption from your gut, but without K2, that calcium can deposit in your arteries instead of your bones. K2 (specifically MK-7) activates osteocalcin, which directs calcium into bones and teeth where it belongs.",
+      "details": "This is one of the few supplement pairings where taking one without the other can actually be counterproductive. High-dose vitamin D without K2 may increase arterial calcification risk. Always pair them."
+    },
+    "timing": {
+      "recommendation": "Take both together with a meal containing fat.",
+      "suppA": { "name": "vitamin-d", "best": "morning", "withFood": true, "note": "D3 is fat-soluble -- always take with a fatty meal. 2000-5000 IU daily is typical." },
+      "suppB": { "name": "k2", "best": "morning", "withFood": true, "note": "MK-7 form preferred (longer half-life). 100-200mcg daily. Also fat-soluble." }
+    },
+    "goals": ["bone health", "cardiovascular", "immune"],
+    "intro": "If you take vitamin D, you need K2. Full stop. This is one of the most well-established supplement synergies in the biohacking world, and getting it wrong can do more harm than good. Here's the complete guide."
+  },
+  {
+    "slug": "glycine-nac",
+    "supplements": ["glycine", "NAC"],
+    "title": "Can You Take NAC and Glycine Together?",
+    "metaDescription": "NAC and glycine together form GlyNAC, a powerful combo that boosts glutathione, the body's master antioxidant. Learn dosage, timing, and the research behind it.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "NAC (N-acetyl cysteine) and glycine are the two amino acid precursors to glutathione, your body's most important endogenous antioxidant. Supplementing both together -- known as GlyNAC -- has been shown to restore glutathione levels that decline with age.",
+      "details": "A landmark 2021 study from Baylor College of Medicine showed that GlyNAC supplementation in older adults improved glutathione levels, reduced oxidative stress, and reversed several hallmarks of aging including mitochondrial dysfunction and insulin resistance."
+    },
+    "timing": {
+      "recommendation": "Take both on an empty stomach, split into 2 doses (morning and evening).",
+      "suppA": { "name": "glycine", "best": "morning + evening", "withFood": false, "note": "1.5g twice daily (3g total). Also supports sleep when taken at night." },
+      "suppB": { "name": "NAC", "best": "morning + evening", "withFood": false, "note": "600mg twice daily (1200mg total). Empty stomach for best absorption." }
+    },
+    "goals": ["longevity", "antioxidant", "mitochondrial health"],
+    "intro": "GlyNAC -- the combination of glycine and NAC -- is one of the most exciting longevity interventions to emerge from recent research. It directly targets glutathione synthesis, which declines significantly with age. Here's what you need to know."
+  },
+  {
+    "slug": "magnesium-zinc",
+    "supplements": ["magnesium", "zinc"],
+    "title": "Can You Take Magnesium and Zinc Together?",
+    "metaDescription": "Magnesium and zinc compete for absorption. Learn the optimal way to take them -- timing, spacing, and forms that minimize competition.",
+    "interaction": {
+      "type": "competition",
+      "summary": "Magnesium and zinc compete for the same absorption pathways in your gut. Taking high doses of both at the same time can reduce absorption of each, particularly zinc. The competition is dose-dependent -- it matters more at higher doses.",
+      "details": "The solution is simple: space them apart by at least 2 hours, or take one in the morning and one in the evening. Some ZMA (zinc-magnesium-aspartate) formulas combine both, but at carefully balanced ratios."
+    },
+    "timing": {
+      "recommendation": "Space them at least 2 hours apart. Take zinc in the morning, magnesium in the evening.",
+      "suppA": { "name": "magnesium", "best": "evening", "withFood": true, "note": "Glycinate or threonate form for sleep. 200-400mg elemental. Evening dosing supports relaxation." },
+      "suppB": { "name": "zinc", "best": "morning", "withFood": true, "note": "15-30mg with breakfast. Zinc picolinate or bisglycinate for best absorption. Can cause nausea on empty stomach." }
+    },
+    "goals": ["sleep", "immune", "recovery", "testosterone"],
+    "intro": "Magnesium and zinc are two of the most commonly supplemented minerals, but taking them together isn't straightforward. They compete for absorption, and getting the timing wrong means you're wasting money. Here's how to stack them properly."
+  },
+  {
+    "slug": "omega-3-vitamin-d",
+    "supplements": ["omega-3", "vitamin-d"],
+    "title": "Can You Take Omega-3 and Vitamin D Together?",
+    "metaDescription": "Omega-3 and vitamin D are a perfect pair. The fat in fish oil boosts vitamin D absorption. Learn the best timing and dosage for this foundational stack.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Omega-3 fish oil and vitamin D are one of the easiest and most effective stacks. Vitamin D is fat-soluble, and the omega-3 fatty acids provide the perfect absorption vehicle. Both also have complementary anti-inflammatory effects.",
+      "details": "Multiple studies show that taking vitamin D with dietary fat increases absorption by 50% or more. Fish oil is an ideal fat source. Both supplements also work synergistically to reduce systemic inflammation and support immune function."
+    },
+    "timing": {
+      "recommendation": "Take both together with your largest meal.",
+      "suppA": { "name": "omega-3", "best": "with meals", "withFood": true, "note": "2-3g combined EPA/DHA daily. Take with food to reduce fishy burps and improve absorption." },
+      "suppB": { "name": "vitamin-d", "best": "morning", "withFood": true, "note": "2000-5000 IU D3. The fat from fish oil enhances absorption. Pair with K2 as well." }
+    },
+    "goals": ["inflammation", "immune", "brain health", "cardiovascular"],
+    "intro": "Omega-3 and vitamin D is a foundational stack that almost everyone should consider. They're synergistic, they're safe, and the science behind both is rock-solid. Here's how to take them together for maximum benefit."
+  },
+  {
+    "slug": "berberine-metformin",
+    "supplements": ["berberine", "metformin"],
+    "title": "Can You Take Berberine and Metformin Together?",
+    "metaDescription": "Berberine and metformin both activate AMPK and lower blood sugar. Taking both together may cause hypoglycemia. Learn the risks, alternatives, and what to discuss with your doctor.",
+    "interaction": {
+      "type": "conflict",
+      "summary": "Berberine and metformin both activate the AMPK pathway and lower blood glucose through similar mechanisms. Combining them significantly increases the risk of hypoglycemia (dangerously low blood sugar) and GI side effects.",
+      "details": "Berberine is sometimes called 'nature's metformin' because it works through nearly identical pathways. Stacking both is essentially doubling the dose of the same mechanism of action. This is a combination that requires medical supervision. Most practitioners recommend one or the other, not both."
+    },
+    "timing": {
+      "recommendation": "Do NOT combine without medical supervision. If prescribed both, take with meals and monitor blood glucose.",
+      "suppA": { "name": "berberine", "best": "with meals", "withFood": true, "note": "500mg 2-3x daily with meals. GI side effects are common. Cycle 8 weeks on, 2 weeks off." },
+      "suppB": { "name": "metformin", "best": "with meals", "withFood": true, "note": "Prescription medication. Extended-release form reduces GI issues. Take with dinner." }
+    },
+    "goals": ["blood sugar", "longevity", "metabolic health"],
+    "intro": "Berberine and metformin are both popular in the longevity community for their AMPK-activating, blood sugar-lowering effects. But combining them is risky. Here's what you need to know before stacking these two."
+  },
+  {
+    "slug": "alpha-gpc-lions-mane",
+    "supplements": ["alpha-GPC", "lion's mane"],
+    "title": "Can You Take Lion's Mane and Alpha-GPC Together?",
+    "metaDescription": "Lion's mane and alpha-GPC are a top nootropic stack for focus and neuroplasticity. Learn the synergy, dosing, and timing for optimal cognitive performance.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Lion's mane stimulates nerve growth factor (NGF) production, promoting neuroplasticity and the growth of new neural connections. Alpha-GPC provides the raw choline needed for acetylcholine synthesis, the neurotransmitter most associated with learning and memory. Together, you're building new connections AND fueling them.",
+      "details": "This is one of the most popular nootropic stacks in the biohacking community. Lion's mane provides the long-term structural benefits (NGF), while alpha-GPC delivers immediate cognitive fuel (acetylcholine). The combination is greater than the sum of its parts."
+    },
+    "timing": {
+      "recommendation": "Take both in the morning with breakfast for cognitive performance throughout the day.",
+      "suppA": { "name": "alpha-GPC", "best": "morning", "withFood": true, "note": "300-600mg in the morning. Can cause headaches at high doses -- start low." },
+      "suppB": { "name": "lion's mane", "best": "morning", "withFood": true, "note": "500-1000mg standardized extract. Effects build over weeks -- be consistent." }
+    },
+    "goals": ["focus", "memory", "neuroplasticity", "cognition"],
+    "intro": "If you're building a nootropic stack, lion's mane and alpha-GPC is one of the best starting points. One builds new neural pathways, the other fuels them. Here's how to combine them for peak cognitive performance."
+  },
+  {
+    "slug": "magnesium-melatonin",
+    "supplements": ["magnesium", "melatonin"],
+    "title": "Can You Take Melatonin and Magnesium Together?",
+    "metaDescription": "Melatonin and magnesium together are a safe, effective sleep stack. Learn the ideal dosing, timing, and why most people take too much melatonin.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Magnesium and melatonin work through complementary sleep pathways. Magnesium promotes muscle relaxation and GABA activity, creating the physical conditions for sleep. Melatonin signals to your brain that it's time to sleep by regulating the circadian rhythm. Different mechanisms, additive benefits.",
+      "details": "This is one of the safest and most effective natural sleep stacks. The key mistake most people make is taking too much melatonin -- physiological doses (0.3-0.5mg) are more effective than the 5-10mg pills commonly sold."
+    },
+    "timing": {
+      "recommendation": "Take magnesium 1 hour before bed, melatonin 30 minutes before bed.",
+      "suppA": { "name": "magnesium", "best": "evening", "withFood": true, "note": "200-400mg magnesium glycinate. Take 60 minutes before bed for best effect." },
+      "suppB": { "name": "melatonin", "best": "evening", "withFood": false, "note": "0.3-0.5mg (NOT 5-10mg). Sublingual form for faster onset. Take 30 min before bed." }
+    },
+    "goals": ["sleep", "circadian rhythm", "relaxation"],
+    "intro": "The magnesium + melatonin stack is the go-to natural sleep protocol in the biohacking community. But most people are dosing melatonin wrong. Here's the evidence-based approach to combining these two for the best sleep of your life."
+  },
+  {
+    "slug": "black-pepper-turmeric",
+    "supplements": ["black pepper", "turmeric"],
+    "title": "Can You Take Turmeric and Black Pepper Together?",
+    "metaDescription": "Black pepper (piperine) increases turmeric absorption by up to 2000%. Learn why you should never take turmeric without it, plus dosing and timing tips.",
+    "interaction": {
+      "type": "synergy",
+      "summary": "Piperine (the active compound in black pepper) inhibits glucuronidation in the liver and gut wall, which is the process that normally breaks down curcumin before it can be absorbed. A landmark study showed piperine increases curcumin bioavailability by 2000%.",
+      "details": "Without piperine, you absorb almost none of the curcumin in turmeric supplements. This is why most quality turmeric supplements already include BioPerine (standardized piperine extract). If yours doesn't, add black pepper extract separately."
+    },
+    "timing": {
+      "recommendation": "Take both together with a meal containing fat.",
+      "suppA": { "name": "turmeric", "best": "with meals", "withFood": true, "note": "500-1000mg curcumin extract, standardized to 95% curcuminoids. Fat improves absorption further." },
+      "suppB": { "name": "black pepper", "best": "with meals", "withFood": true, "note": "5-20mg piperine (BioPerine). Take at the same time as turmeric -- they must be absorbed together." }
+    },
+    "goals": ["inflammation", "joint health", "recovery", "antioxidant"],
+    "intro": "Taking turmeric without black pepper is like throwing money away. Piperine increases curcumin absorption by 2000% -- that's not a typo. Here's why this is the most important supplement pairing you're probably not optimizing."
+  }
+]

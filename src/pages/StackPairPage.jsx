@@ -95,11 +95,6 @@ export default function StackPairPage() {
           </div>
         </section>
 
-        <section className="pair-cta">
-          <h2>Check Your Full Stack</h2>
-          <p>Taking more than just these two? Run your full supplement stack through our interaction checker.</p>
-          <Link to="/" className="cta-button">Open Supplement Checker</Link>
-        </section>
       </div>
     </div>
   )

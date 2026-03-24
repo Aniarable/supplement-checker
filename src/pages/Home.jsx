@@ -30,19 +30,6 @@ export default function Home() {
     <div className="home-layout">
       <aside className="ad-sidebar ad-sidebar-left">
         <div className="ad-slot ad-slot-vertical" data-ad-slot="home-left" />
-        <div className="sidebar-stacks">
-          <h3 className="sidebar-stacks-title">Popular Stacks</h3>
-          {PRESET_STACKS.map((preset) => (
-            <button
-              key={preset.name}
-              className="sidebar-stack-btn"
-              onClick={() => setStack(preset.supps)}
-            >
-              <span className="sidebar-stack-name">{preset.name}</span>
-              <span className="sidebar-stack-count">{preset.supps.length} supps</span>
-            </button>
-          ))}
-        </div>
       </aside>
 
       <main className="home">
@@ -53,6 +40,22 @@ export default function Home() {
         </div>
 
         <ResultsPanel results={results} />
+
+        <section className="preset-stacks-section">
+          <h2>Popular Stacks</h2>
+          <div className="preset-stacks-grid">
+            {PRESET_STACKS.map((preset) => (
+              <button
+                key={preset.name}
+                className="preset-stack-card"
+                onClick={() => setStack(preset.supps)}
+              >
+                <span className="preset-stack-name">{preset.name}</span>
+                <span className="preset-stack-supps">{preset.supps.join(", ")}</span>
+              </button>
+            ))}
+          </div>
+        </section>
 
         <section className="featured-pairs">
           <h2>Popular Supplement Pairs</h2>

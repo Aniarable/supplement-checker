@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import StackInput from "../components/StackInput";
 import ResultsPanel from "../components/ResultsPanel";
 import { checkStack } from "../logic/checkStack";
@@ -22,6 +23,15 @@ export default function Home() {
 
       {/* AdSense placeholder */}
       <div className="ad-slot" data-ad-slot="home-bottom" />
+
+      <footer className="disclaimer-footer">
+        <p>
+          This tool is for <strong>educational purposes only</strong> and does not
+          constitute medical advice. Always consult a qualified healthcare provider
+          before starting, stopping, or changing any supplement regimen.
+        </p>
+        <p><Link to="/terms">Terms of Use & Disclaimer</Link></p>
+      </footer>
     </main>
   );
 }

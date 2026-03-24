@@ -9,6 +9,12 @@ const fuse = new Fuse(supplements, {
   includeScore: true,
 });
 
+const POPULAR = [
+  "vitamin-d", "magnesium", "omega-3", "zinc", "ashwagandha",
+  "creatine", "vitamin-c", "iron", "probiotics", "vitamin-k2",
+  "turmeric", "b-complex", "coq10", "l-theanine", "NAC",
+];
+
 export default function StackInput({ stack, setStack }) {
   const [query, setQuery] = useState("");
   const [highlightIndex, setHighlightIndex] = useState(-1);
@@ -105,6 +111,22 @@ export default function StackInput({ stack, setStack }) {
           role="combobox"
         />
       </div>
+
+      {stack.length < 3 && (
+        <div className="stack-suggestions">
+          <span className="stack-suggestions-label">Popular:</span>
+          {POPULAR.filter((name) => !stack.includes(name)).map((name) => (
+            <button
+              key={name}
+              type="button"
+              className="stack-suggestion-chip"
+              onClick={() => addSupplement(name)}
+            >
+              {name}
+            </button>
+          ))}
+        </div>
+      )}
 
       {isOpen && results.length > 0 && (
         <ul className="stack-dropdown" ref={listRef} role="listbox">
